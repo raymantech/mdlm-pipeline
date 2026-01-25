@@ -7,3 +7,10 @@ backend/logs/*.log
 *.db-shm
 frontend/data/*.json
 .DS_Store
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+backend/logs/
+backend/*.db-shm
+backend/*.db-wal
