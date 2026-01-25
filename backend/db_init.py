@@ -35,6 +35,30 @@ def main():
     )
     """)
 
+    # --- chart_entry: 兼容 ingest_qq / ingest_kugou ---
+    cur.execute("""
+    CREATE TABLE IF NOT EXISTS chart_entry (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        snapshot_id INTEGER NOT NULL,
+        platform_id INTEGER,
+        chart_id INTEGER,
+        track_platform_id TEXT NOT NULL,
+        track_name TEXT NOT NULL,
+        rank INTEGER NOT NULL,
+        heat REAL,
+        raw_json TEXT,
+        created_at TEXT DEFAULT (datetime('now')),
+        FOREIGN KEY(snapshot_id) REFERENCES chart_snapshot(id),
+        FOREIGN KEY(platform_id) REFERENCES platform(id),
+        FOREIGN KEY(chart_id) REFERENCES chart(id)
+    )
+    """)
+
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_entry_snapshot ON chart_entry(snapshot_id);")
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_entry_track ON chart_entry(platform_id, track_platform_id);")
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_entry_day ON chart_entry(substr(created_at,1,10));")
+
+
     # --- chart ---
     cur.execute("""
     CREATE TABLE IF NOT EXISTS chart (
