@@ -63,28 +63,45 @@ def main():
     )
     """)
 
-    # --- chart_snapshot ---
-    # 快照记录：某天某榜某歌的排名等
+    # --- chart_snapshot (兼容 ingest_qq：insert_snapshot 不一定带 platform_id) ---
+    # snapshot：一次抓取的元信息（某榜在某时刻抓了一次）
     cur.execute("""
     CREATE TABLE IF NOT EXISTS chart_snapshot (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        platform_id INTEGER NOT NULL,
+        platform_id INTEGER,                 -- 允许为空：兼容 ingest_qq 未传 platform_id 的情况
         chart_id INTEGER NOT NULL,
-        song_id TEXT NOT NULL,
-        rank INTEGER,
-        heat REAL,
-        captured_at TEXT NOT NULL,
+        captured_at TEXT NOT NULL,           -- ISO datetime
+        top_n INTEGER,
         raw_json TEXT,
         created_at TEXT DEFAULT (datetime('now')),
         FOREIGN KEY(platform_id) REFERENCES platform(id),
         FOREIGN KEY(chart_id) REFERENCES chart(id)
     )
     """)
-
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_snapshot_chart_time ON chart_snapshot(chart_id, captured_at);")
     cur.execute("CREATE INDEX IF NOT EXISTS idx_snapshot_day ON chart_snapshot(substr(captured_at,1,10));")
-    cur.execute("CREATE INDEX IF NOT EXISTS idx_snapshot_platform_chart ON chart_snapshot(platform_id, chart_id);")
-    cur.execute("CREATE INDEX IF NOT EXISTS idx_snapshot_song ON chart_snapshot(platform_id, song_id);")
 
+    # --- chart_snapshot_item ---
+    # items：一次抓取里每首歌的排名/热度明细（给后续事件分析用）
+    cur.execute("""
+    CREATE TABLE IF NOT EXISTS chart_snapshot_item (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        snapshot_id INTEGER NOT NULL,
+        platform_id INTEGER,                 -- 可为空（可从 chart / platform 推导）
+        chart_id INTEGER,
+        song_id TEXT NOT NULL,
+        rank INTEGER,
+        heat REAL,
+        raw_json TEXT,
+        created_at TEXT DEFAULT (datetime('now')),
+        FOREIGN KEY(snapshot_id) REFERENCES chart_snapshot(id),
+        FOREIGN KEY(platform_id) REFERENCES platform(id),
+        FOREIGN KEY(chart_id) REFERENCES chart(id)
+    )
+    """)
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_item_snapshot ON chart_snapshot_item(snapshot_id);")
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_item_song ON chart_snapshot_item(platform_id, song_id);")
+    cur.execute("CREATE INDEX IF NOT EXISTS idx_item_day ON chart_snapshot_item(substr(created_at,1,10));")
     # --- event ---
     cur.execute("""
     CREATE TABLE IF NOT EXISTS event (
