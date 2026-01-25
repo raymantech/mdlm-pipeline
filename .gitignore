@@ -1,16 +1,30 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Virtualenv
 .venv/
-backend/logs/*.log
-*.db
+venv/
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
+
+# SQLite runtime files
 *.db-wal
 *.db-shm
-frontend/data/*.json
-.DS_Store
-.venv/
-__pycache__/
-*.pyc
-.DS_Store
-backend/logs/
-backend/*.db-shm
-backend/*.db-wal
+
+# Logs
+backend/logs/*.log
+*.log
+
+# Exported frontend data (可选：如果你不希望每次跑完就改动 main 分支)
+# frontend/data/*.json
