@@ -1,0 +1,17 @@
+# macOS
+.DS_Store
+
+# python
+__pycache__/
+*.pyc
+
+# venv
+.venv/
+
+# logs
+backend/logs/*.log
+
+# db & sqlite runtime files
+backend/charts.db
+backend/charts.db-*
+frontend/long_term_music.db
