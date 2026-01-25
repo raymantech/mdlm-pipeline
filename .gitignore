@@ -1,23 +1,9 @@
-# python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# venv
 .venv/
-venv/
-
-# logs
 backend/logs/*.log
-
-# database
 *.db
 *.db-wal
 *.db-shm
-
-# data output
 frontend/data/*.json
-
-# mac
 .DS_Store
