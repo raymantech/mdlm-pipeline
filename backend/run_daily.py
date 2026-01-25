@@ -1,147 +1,151 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+MDLM daily pipeline entry.
+
+Goals:
+- Work in both local and GitHub Actions
+- If backend/charts.db missing, auto init via backend/db_init.py
+- Run ingest scripts -> analyze -> merge -> export
+- Exit non-zero when any step fails (CI friendly)
+"""
+
+from __future__ import annotations
+
 import os
-import json
-import sqlite3
-from datetime import datetime
-from typing import Dict, Any, List, Tuple
+import sys
+import subprocess
 from pathlib import Path
+from datetime import datetime
 
-import httpx
-from mdlm_config import db_path, load_env
 
-# -------------------------
-# env (optional)
-# -------------------------
-load_env(override=True)
+ROOT = Path(__file__).resolve().parents[1]              # repo root
+BACKEND = ROOT / "backend"
+LOG_DIR = BACKEND / "logs"
 
-SQLITE_DB_PATH = str(db_path())
-TOP_N = int(os.getenv("SYNC_TOP_N", "100"))  # 默认 100
+DB_PATH = BACKEND / "charts.db"
+DB_INIT = BACKEND / "db_init.py"
 
-# -------------------------
-# NetEase toplist mapping
-# -------------------------
-# 常见榜单对应的歌单ID（业内常用映射）
-# 热歌榜 3778678，新歌榜 3779629，飙升榜 19723756
-# 来源：多处整理文章/项目中使用的榜单ID映射。 [oai_citation:3‡腾讯云](https://cloud.tencent.com/developer/article/1543945?utm_source=chatgpt.com)
-NETEASE_TOPLISTS: List[Tuple[str, int]] = [
-    ("热歌榜", 3778678),
-    ("新歌榜", 3779629),
-    ("飙升榜", 19723756),
+INGEST_SCRIPTS = [
+    BACKEND / "ingest_qq.py",
+    BACKEND / "ingest_kugou.py",
+    # 如果你有网易云脚本（例如 ingest_163.py / ingest_netease.py），在这里加一行：
+    # BACKEND / "ingest_163.py",
 ]
 
-PLATFORM_NAME = "网易云音乐"
+ANALYZE_SCRIPT = BACKEND / "analyze_events.py"
+MERGE_SCRIPT = BACKEND / "merge_events.py"
+EXPORT_SCRIPT = BACKEND / "export_dashboard_data.py"
 
-# -------------------------
-# HTTP
-# -------------------------
-http = httpx.Client(
-    timeout=30.0,
-    headers={
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/537.36 "
-                      "(KHTML, like Gecko) Chrome/122.0 Safari/537.36",
-        "Referer": "https://music.163.com/",
-    }
-)
 
-def fetch_netease_playlist_detail(playlist_id: int) -> Dict[str, Any]:
+def _now() -> str:
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+
+def _print(msg: str) -> None:
+    print(msg, flush=True)
+
+
+def _ensure_logs_dir() -> None:
+    LOG_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def _run(cmd: list[str], step_name: str, log_file: Path | None = None) -> None:
     """
-    说明：使用常见的 playlist detail 接口抓取榜单歌单详情。
-    该接口可用性可能随平台策略变化；若返回异常，再做备选方案。
-     [oai_citation:4‡腾讯云](https://cloud.tencent.com/developer/article/1543945?utm_source=chatgpt.com)
+    Run a subprocess. If log_file provided, append stdout/stderr to it.
+    Raise on failure.
     """
-    url = "https://music.163.com/api/playlist/detail"
-    r = http.get(url, params={"id": str(playlist_id)})
-    r.raise_for_status()
-    return r.json()
+    _print(f"[STEP] {step_name}")
+    env = os.environ.copy()
+    env["PYTHONUNBUFFERED"] = "1"
 
-# -------------------------
-# DB helpers
-# -------------------------
-def ensure_platform(conn: sqlite3.Connection, name: str) -> int:
-    conn.execute("INSERT OR IGNORE INTO platform(name) VALUES (?)", (name,))
-    conn.commit()
-    row = conn.execute("SELECT id FROM platform WHERE name=?", (name,)).fetchone()
-    return int(row[0])
+    if log_file is None:
+        subprocess.run(cmd, check=True, cwd=str(ROOT), env=env)
+        _print(f"[OK]   {step_name}")
+        return
 
-def ensure_chart(conn: sqlite3.Connection, platform_id: int, chart_name: str, source_url: str) -> int:
-    conn.execute(
-        "INSERT OR IGNORE INTO chart(platform_id, name, category, update_freq, source_url) VALUES (?, ?, ?, ?, ?)",
-        (platform_id, chart_name, "toplist", "daily", source_url),
-    )
-    conn.commit()
-    row = conn.execute(
-        "SELECT id FROM chart WHERE platform_id=? AND name=?",
-        (platform_id, chart_name),
-    ).fetchone()
-    return int(row[0])
+    _ensure_logs_dir()
+    log_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(log_file, "a", encoding="utf-8") as f:
+        f.write(f"\n\n==================== {_now()} {step_name} ====================\n")
+        f.write("CMD: " + " ".join(cmd) + "\n")
+        f.flush()
+        p = subprocess.run(cmd, cwd=str(ROOT), env=env, stdout=f, stderr=subprocess.STDOUT)
+        if p.returncode != 0:
+            f.write(f"\n[FAIL] {step_name} (exit {p.returncode})\n")
+            f.flush()
+            raise subprocess.CalledProcessError(p.returncode, cmd)
+        f.write(f"\n[OK] {step_name}\n")
+        f.flush()
 
-def insert_snapshot(conn: sqlite3.Connection, chart_id: int, top_n: int, raw_payload: Dict[str, Any]) -> int:
-    captured_at = datetime.now().isoformat(timespec="seconds")
-    cur = conn.execute(
-        "INSERT INTO chart_snapshot(chart_id, captured_at, top_n, raw_payload) VALUES (?, ?, ?, ?)",
-        (chart_id, captured_at, top_n, json.dumps(raw_payload, ensure_ascii=False)),
-    )
-    conn.commit()
-    return int(cur.lastrowid)
+    _print(f"[OK]   {step_name} (log: {log_file})")
 
-def insert_entries(
-    conn: sqlite3.Connection,
-    snapshot_id: int,
-    entries: List[Tuple[int, str, str, str]],
-) -> None:
+
+def ensure_db() -> None:
     """
-    entries: (rank, track_platform_id, track_name, artist_name_raw)
+    Make sure backend/charts.db exists. If not, run db_init.py.
     """
-    conn.executemany(
-        "INSERT INTO chart_entry(snapshot_id, rank, track_platform_id, track_name, artist_name_raw, score, extra_metrics) "
-        "VALUES (?, ?, ?, ?, ?, ?, ?)",
-        [(snapshot_id, rank, tid, name, artist, None, None) for (rank, tid, name, artist) in entries],
-    )
-    conn.commit()
+    if DB_PATH.exists():
+        return
 
-def parse_tracks(payload: Dict[str, Any], top_n: int) -> List[Tuple[int, str, str, str]]:
-    """
-    兼容 playlist/detail 常见返回：payload['result']['tracks']
-    """
-    result = payload.get("result") or payload.get("playlist") or {}
-    tracks = result.get("tracks") or []
-    out: List[Tuple[int, str, str, str]] = []
-    for idx, t in enumerate(tracks[:top_n], start=1):
-        tid = str(t.get("id", ""))
-        name = t.get("name") or ""
-        # artists 字段可能在 ar / artists
-        ars = t.get("ar") or t.get("artists") or []
-        artist = "/".join([a.get("name", "") for a in ars if isinstance(a, dict)]) or ""
-        out.append((idx, tid, name, artist))
-    return out
+    _print(f"[BOOT] charts.db not found: {DB_PATH}")
+    if not DB_INIT.exists():
+        raise SystemExit(f"❌ db_init.py not found: {DB_INIT}")
 
-def main():
-    db_path = Path(SQLITE_DB_PATH).resolve()
-    if not db_path.exists():
-        raise SystemExit(f"❌ 找不到 SQLite: {db_path}")
+    # Run db_init.py with current python (venv in CI/local)
+    _run([sys.executable, str(DB_INIT)], "init sqlite db", LOG_DIR / "db_init.log")
 
-    conn = sqlite3.connect(str(db_path))
-    try:
-        platform_id = ensure_platform(conn, PLATFORM_NAME)
+    if not DB_PATH.exists():
+        raise SystemExit(f"❌ db_init.py ran but still no db: {DB_PATH}")
 
-        for chart_name, playlist_id in NETEASE_TOPLISTS:
-            source_url = f"https://music.163.com/#/discover/toplist?id={playlist_id}"
-            chart_id = ensure_chart(conn, platform_id, chart_name, source_url)
+    _print(f"[BOOT] db created: {DB_PATH}")
 
-            payload = fetch_netease_playlist_detail(playlist_id)
-            entries = parse_tracks(payload, TOP_N)
 
-            if not entries:
-                print(f"⚠️ {PLATFORM_NAME}-{chart_name} 没抓到 tracks，跳过")
-                continue
+def check_scripts_exist() -> None:
+    missing = []
+    for p in INGEST_SCRIPTS + [ANALYZE_SCRIPT, MERGE_SCRIPT, EXPORT_SCRIPT]:
+        if not p.exists():
+            missing.append(str(p))
+    if missing:
+        raise SystemExit("❌ Missing pipeline scripts:\n" + "\n".join(missing))
 
-            snapshot_id = insert_snapshot(conn, chart_id, TOP_N, payload)
-            insert_entries(conn, snapshot_id, entries)
 
-            print(f"✅ 入库完成：{PLATFORM_NAME} - {chart_name} Top{len(entries)} (snapshot_id={snapshot_id})")
+def main() -> int:
+    _print("▶ MDLM daily pipeline (run_daily.py)")
+    _print(f"[INFO] ROOT={ROOT}")
+    _print(f"[INFO] python={sys.executable}")
 
-    finally:
-        conn.close()
-        http.close()
+    _ensure_logs_dir()
+    check_scripts_exist()
+    ensure_db()
+
+    # 1) ingest
+    for script in INGEST_SCRIPTS:
+        _run([sys.executable, str(script)], f"ingest: {script.name}", LOG_DIR / "ingest.log")
+
+    # 2) analyze
+    _run([sys.executable, str(ANALYZE_SCRIPT)], "analyze events", LOG_DIR / "analyze.log")
+
+    # 3) merge
+    _run([sys.executable, str(MERGE_SCRIPT)], "merge events", LOG_DIR / "merge.log")
+
+    # 4) export latest json (你之前用 --latest 或 --all，这里默认 latest)
+    # 如果你希望 CI 每天都导出“近7天”，并且写同一个 merged_events_latest.json，
+    # 建议 export_dashboard_data.py 支持 --days 7（你 2.0 里应该已经有）。
+    # 这里先用 --latest，保证不报错；你要 --days 7 我也可以给你配套改 export。
+    _run([sys.executable, str(EXPORT_SCRIPT), "--latest"], "export latest json", LOG_DIR / "export.log")
+
+    _print("[OK] all done")
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    try:
+        raise SystemExit(main())
+    except subprocess.CalledProcessError as e:
+        _print(f"[FAIL] subprocess error: {e}")
+        raise
+    except Exception as e:
+        _print(f"[FAIL] unexpected error: {e}")
+        raise
