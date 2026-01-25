@@ -1,10 +1,10 @@
-name: MDLM Daily Pipeline (B1)
+name: MDLM Daily Pipeline (B)
 
 on:
   workflow_dispatch:
   schedule:
-    # 每天 UTC 01:30 运行（中国时间 +8 => 09:30）
-    - cron: "30 1 * * *"
+    # 每天北京时间 07:10（UTC 23:10）
+    - cron: "10 23 * * *"
 
 permissions:
   contents: write
@@ -16,14 +16,12 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
 
     steps:
       - name: Checkout main (code)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -42,6 +40,8 @@ jobs:
 
       - name: Run pipeline (daily + export)
         shell: bash
+        env:
+          EXPORT_DAYS: "7"
         run: |
           set -euo pipefail
           . .venv/bin/activate
@@ -54,40 +54,57 @@ jobs:
           test -f frontend/data/merged_events_latest.json
           ls -lh frontend/data/merged_events_latest.json
 
-      - name: Push output to data branch
+      # ✅ 关键：用 worktree 操作 data 分支，避免 checkout 覆盖 charts.db
+      - name: Push output to data branch (worktree)
         shell: bash
-        env:
-          OUT_FILE: frontend/data/merged_events_latest.json
-          DATA_BRANCH: data
-          DEST_PATH: merged_events_latest.json
         run: |
           set -euo pipefail
 
-          # 配置 git 身份
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 确保能拿到 data 分支（不存在就创建）
-          if git ls-remote --exit-code --heads origin "$DATA_BRANCH" >/dev/null 2>&1; then
-            git fetch origin "$DATA_BRANCH":"refs/remotes/origin/$DATA_BRANCH"
-            git switch -C "$DATA_BRANCH" "origin/$DATA_BRANCH"
+          # 确保本地有 data 分支（没有就创建）
+          if git show-ref --verify --quiet refs/remotes/origin/data; then
+            echo "[INFO] origin/data exists"
           else
-            git switch --orphan "$DATA_BRANCH"
-            rm -rf ./*
-            echo "# MDLM data branch" > README.md
-            git add README.md
-            git commit -m "init: data branch"
-            git push -u origin "$DATA_BRANCH"
+            echo "[INFO] origin/data not found, creating empty data branch"
+            git checkout --orphan data
+            git rm -rf .
+            mkdir -p data
+            echo "data branch for MDLM outputs" > data/README.txt
+            git add data/README.txt
+            git commit -m "init data branch"
+            git push -u origin data
+            git checkout main
           fi
 
-          # 把 main 分支产出的文件拷贝过来
-          git show "main:$OUT_FILE" > "$DEST_PATH"
+          # 创建 worktree
+          rm -rf ../_data_branch
+          git worktree add ../_data_branch data
 
-          # 如果无变化就不提交
-          if git status --porcelain | grep -q .; then
-            git add "$DEST_PATH"
-            git commit -m "data: update $DEST_PATH ($(date -u +'%Y-%m-%d %H:%M:%S UTC'))"
-            git push origin "$DATA_BRANCH"
+          # 复制输出文件到 data 分支工作区（你也可以改路径）
+          mkdir -p ../_data_branch/data
+          cp -f frontend/data/merged_events_latest.json ../_data_branch/data/merged_events_latest.json
+
+          cd ../_data_branch
+          git add data/merged_events_latest.json
+
+          # 若无变化则不提交
+          if git diff --cached --quiet; then
+            echo "[INFO] No changes to commit on data branch."
           else
-            echo "No changes. Skip commit."
+            git commit -m "data: update merged_events_latest.json ($(date -u +'%Y-%m-%d %H:%M:%S') UTC)"
+            git push origin data
           fi
+
+          # 清理 worktree
+          cd -
+          git worktree remove ../_data_branch --force
+          rm -rf ../_data_branch
+
+      # 可选：同时上传 artifact（方便你在 Actions 页面直接下载）
+      - name: Upload artifact (merged_events_latest.json)
+        uses: actions/upload-artifact@v4
+        with:
+          name: merged_events_latest
+          path: frontend/data/merged_events_latest.json
