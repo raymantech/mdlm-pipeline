@@ -1,65 +1,41 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
+# backend/run_daily.py
+import os
 import sys
 import subprocess
 from pathlib import Path
 from datetime import datetime
 
-ROOT = Path(__file__).resolve().parents[1]
-BACKEND = ROOT / "backend"
-LOG_DIR = BACKEND / "logs"
+ROOT = Path(__file__).resolve().parent
+PY = sys.executable
 
-DB_PATH = BACKEND / "charts.db"
-DB_INIT = BACKEND / "db_init.py"
+def ts():
+    return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 
-INGEST_SCRIPTS = [
-    BACKEND / "ingest_qq.py",
-    BACKEND / "ingest_kugou.py",
-]
-
-ANALYZE_SCRIPT = BACKEND / "analyze_events.py"
-MERGE_SCRIPT = BACKEND / "merge_events.py"
-EXPORT_SCRIPT = BACKEND / "export_dashboard_data.py"
-
-def log(msg):
-    print(msg, flush=True)
-
-def now():
-    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-def run(cmd, name):
-    log(f"[STEP] {name}")
+def run(cmd, title):
+    print(f"{ts()} [STEP] {title}")
     subprocess.run(cmd, check=True)
-    log(f"[OK]   {name}")
-
-def ensure_db():
-    if DB_PATH.exists():
-        log(f"[INFO] sqlite ok: {DB_PATH}")
-        return
-
-    log(f"[BOOT] charts.db not found, init db")
-    run([sys.executable, str(DB_INIT)], "init sqlite db")
-
-    if not DB_PATH.exists():
-        raise SystemExit(f"❌ db_init finished but db still missing: {DB_PATH}")
+    print(f"{ts()} [OK]   {title}")
 
 def main():
-    log("▶ MDLM daily pipeline")
-    log(f"[INFO] ROOT={ROOT}")
-    log(f"[INFO] python={sys.executable}")
+    os.environ.setdefault("MDLM_DB", str(ROOT / "charts.db"))
 
-    LOG_DIR.mkdir(parents=True, exist_ok=True)
-    ensure_db()
+    # 1) init db (必须第一步)
+    run([PY, str(ROOT / "db_init.py")], "init sqlite db")
 
-    for s in INGEST_SCRIPTS:
-        run([sys.executable, str(s)], f"ingest {s.name}")
+    # 2) ingest
+    run([PY, str(ROOT / "ingest_qq.py")], "ingest ingest_qq.py")
+    run([PY, str(ROOT / "ingest_kugou.py")], "ingest ingest_kugou.py")
 
-    run([sys.executable, str(ANALYZE_SCRIPT)], "analyze events")
-    run([sys.executable, str(MERGE_SCRIPT)], "merge events")
-    run([sys.executable, str(EXPORT_SCRIPT), "--latest"], "export json")
-
-    log("[OK] all done")
+    # 3) 事件分析/合并/导出（如果你仓库里有）
+    maybe = [
+        ROOT / "analyze_events.py",
+        ROOT / "merge_events.py",
+        ROOT / "export_dashboard_data.py",
+    ]
+    for s in maybe:
+        if s.exists():
+            run([PY, str(s), "--latest"] if s.name == "export_dashboard_data.py" else [PY, str(s)],
+                f"post {s.name}")
 
 if __name__ == "__main__":
     main()
