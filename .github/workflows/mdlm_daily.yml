@@ -3,8 +3,8 @@ name: MDLM Daily Pipeline (B)
 on:
   workflow_dispatch:
   schedule:
-    # 临时测试：北京时间 13:00（UTC 05:00）
-    - cron: "0 5 * * *"
+    # 临时测试：每 5 分钟触发一次（UTC）
+    - cron: "*/5 * * * *"
 
 permissions:
   contents: write
