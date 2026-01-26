@@ -55,6 +55,8 @@ class TrackInfo:
     platform: str
     heat: float = 0
     track_id: str = ""
+    digg_count: int = 0
+    collect_count: int = 0
     
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
@@ -73,6 +75,8 @@ class DarkHorseTrack:
     is_dark_horse: bool
     discovery_time: str
     match_key: str
+    douyin_digg: int = 0
+    douyin_collect: int = 0
     
     def to_dict(self) -> Dict[str, Any]:
         return asdict(self)
@@ -176,6 +180,98 @@ def fuzzy_match(track_a: TrackInfo, track_b: TrackInfo) -> bool:
 # =========================================================
 # 数据获取
 # =========================================================
+def fetch_douyin_from_db(limit: int = 50) -> List[TrackInfo]:
+    """从本地数据库获取最新的抖音榜单数据"""
+    import sqlite3
+    from mdlm_config import db_path
+    
+    db_file = db_path()
+    if not db_file.exists():
+        return []
+        
+    try:
+        conn = sqlite3.connect(str(db_file))
+        
+        # 1. 找到抖音平台ID
+        row = conn.execute("SELECT id FROM platform WHERE name LIKE '%抖音%'").fetchone()
+        if not row:
+            return []
+        platform_id = row[0]
+        
+        # 2. 找到“热歌榜” chart_id
+        row = conn.execute(
+            "SELECT id FROM chart WHERE platform_id = ? AND name = ?", 
+            (platform_id, "热歌榜")
+        ).fetchone()
+        if not row:
+            return []
+        chart_id = row[0]
+        
+        # 3. 获取最新快照
+        row = conn.execute(
+            "SELECT id, captured_at FROM chart_snapshot WHERE chart_id = ? ORDER BY captured_at DESC LIMIT 1",
+            (chart_id,)
+        ).fetchone()
+        if not row:
+            return []
+        snapshot_id = row[0]
+        
+        # 4. 获取 entries
+        # 需要检查是否包含 extra_metrics 列
+        has_extra = False
+        cols = [r[1] for r in conn.execute("PRAGMA table_info(chart_entry)").fetchall()]
+        if "extra_metrics" in cols:
+            has_extra = True
+            
+        sql = "SELECT track_name, artist_name_raw, rank, heat"
+        if has_extra:
+            sql += ", extra_metrics"
+        sql += " FROM chart_entry WHERE snapshot_id = ? ORDER BY rank ASC LIMIT ?"
+        
+        rows = conn.execute(sql, (snapshot_id, limit)).fetchall()
+        
+        out: List[TrackInfo] = []
+        for r in rows:
+            track_name = r[0]
+            artist = r[1]
+            rank = r[2]
+            heat = r[3] or 0
+            
+            digg = 0
+            collect = 0
+            
+            if has_extra and r[4]:
+                try:
+                    extra = json.loads(r[4])
+                    digg = extra.get("digg_count", 0)
+                    collect = extra.get("collect_count", 0)
+                    # 如果 heat 为 0，尝试从 extra 补救
+                    if heat == 0:
+                        heat = extra.get("heat", 0)
+                except:
+                    pass
+            
+            out.append(TrackInfo(
+                track_name=track_name,
+                artist=artist,
+                rank=rank,
+                platform="抖音热歌榜",
+                heat=float(heat),
+                digg_count=digg,
+                collect_count=collect
+            ))
+            
+        print(f"  [INFO] Loaded {len(out)} tracks from DB (snapshot_id={snapshot_id})")
+        return out
+        
+    except Exception as e:
+        print(f"  [WARN] Failed to fetch from DB: {e}")
+        return []
+    finally:
+        if 'conn' in locals():
+            conn.close()
+
+
 def fetch_netease_douyin_chart(limit: int = 50) -> List[TrackInfo]:
     """
     从网易云获取"抖音排行榜"数据
@@ -326,21 +422,21 @@ def fetch_mainstream_from_url(url: str) -> List[TrackInfo]:
 # Mock 数据（用于测试或 API 不可用时）
 # =========================================================
 MOCK_DOUYIN_TRACKS = [
-    TrackInfo("APT.", "ROSÉ / Bruno Mars", 1, "抖音排行榜", 100),
-    TrackInfo("再见白兔", "玖壹壹", 2, "抖音排行榜", 98),
-    TrackInfo("一笑江湖", "闻人听書_", 3, "抖音排行榜", 95),
-    TrackInfo("黑桃A", "塞壬唱片", 4, "抖音排行榜", 93),
-    TrackInfo("爱你胜过爱自己", "王奕", 5, "抖音排行榜", 91),
-    TrackInfo("千千万万", "深海鱼子酱", 6, "抖音排行榜", 89),
-    TrackInfo("苏幕遮", "奇然/沈谧仁", 7, "抖音排行榜", 87),
-    TrackInfo("孤独患者", "陈奕迅", 8, "抖音排行榜", 85),
-    TrackInfo("我记得", "赵雷", 9, "抖音排行榜", 83),
-    TrackInfo("给你的歌", "别安", 10, "抖音排行榜", 81),
-    TrackInfo("测试黑马曲目A", "未知歌手", 11, "抖音排行榜", 79),
-    TrackInfo("测试黑马曲目B", "神秘艺人", 12, "抖音排行榜", 77),
-    TrackInfo("潜力新歌", "新人歌手", 13, "抖音排行榜", 75),
-    TrackInfo("信息差测试", "Demo Singer", 14, "抖音排行榜", 73),
-    TrackInfo("黑马候选", "Anonymous", 15, "抖音排行榜", 71),
+    TrackInfo("APT.", "ROSÉ / Bruno Mars", 1, "抖音排行榜", 100, digg_count=5000000),
+    TrackInfo("再见白兔", "玖壹壹", 2, "抖音排行榜", 98, digg_count=2000000),
+    TrackInfo("一笑江湖", "闻人听書_", 3, "抖音排行榜", 95, digg_count=1500000),
+    TrackInfo("黑桃A", "塞壬唱片", 4, "抖音排行榜", 93, digg_count=1000000),
+    TrackInfo("爱你胜过爱自己", "王奕", 5, "抖音排行榜", 91, digg_count=800000),
+    TrackInfo("千千万万", "深海鱼子酱", 6, "抖音排行榜", 89, digg_count=600000),
+    TrackInfo("苏幕遮", "奇然/沈谧仁", 7, "抖音排行榜", 87, digg_count=500000),
+    TrackInfo("孤独患者", "陈奕迅", 8, "抖音排行榜", 85, digg_count=400000),
+    TrackInfo("我记得", "赵雷", 9, "抖音排行榜", 83, digg_count=300000),
+    TrackInfo("给你的歌", "别安", 10, "抖音排行榜", 81, digg_count=200000),
+    TrackInfo("测试黑马曲目A", "未知歌手", 11, "抖音排行榜", 79, digg_count=100000),
+    TrackInfo("测试黑马曲目B", "神秘艺人", 12, "抖音排行榜", 77, digg_count=50000),
+    TrackInfo("潜力新歌", "新人歌手", 13, "抖音排行榜", 75, digg_count=10000),
+    TrackInfo("信息差测试", "Demo Singer", 14, "抖音排行榜", 73, digg_count=5000),
+    TrackInfo("黑马候选", "Anonymous", 15, "抖音排行榜", 71, digg_count=1000),
 ]
 
 MOCK_MAINSTREAM_TRACKS = [
@@ -369,24 +465,49 @@ def get_mock_mainstream_tracks() -> List[TrackInfo]:
 # =========================================================
 # 黑马识别算法
 # =========================================================
-def calculate_gap_score(douyin_rank: int, mainstream_rank: Optional[int]) -> float:
+def calculate_gap_score(
+    douyin_rank: int, 
+    mainstream_rank: Optional[int],
+    douyin_heat: float = 0,
+    digg_count: int = 0
+) -> float:
     """
-    计算信息差分数
+    计算信息差分数（升级版）
     
-    公式：gap_score = (51 - douyin_rank) / (mainstream_rank or DEFAULT_RANK_PENALTY)
+    影响因素：
+    1. 排名差：抖音排名越高，主流排名越低，分数越高
+    2. 热度加成：抖音热度/点赞数越高，分数越高
     
-    分数越高，黑马属性越强：
-    - 抖音排名越高（数字小），分子越大
-    - 传统平台排名越低或未上榜，分母越大，但未上榜时使用惩罚值
+    公式：
+    base_score = (51 - douyin_rank) / (mainstream_rank or DEFAULT_RANK_PENALTY)
+    heat_bonus = log10(digg_count + 1) * 0.05  (如果有点赞数据)
+               或 heat / 10000 * 0.01 (如果有热度数据)
+    
+    final_score = base_score * (1 + heat_bonus)
     """
     if douyin_rank <= 0:
         return 0
     
+    # 基础排名分
     numerator = max(51 - douyin_rank, 1)
     denominator = mainstream_rank if mainstream_rank and mainstream_rank > 0 else DEFAULT_RANK_PENALTY
+    base_score = numerator / denominator
     
-    score = numerator / denominator
-    return round(score, 4)
+    # 热度加成
+    bonus = 0.0
+    if digg_count > 0:
+        # 假设点赞数在 1万~1000万 之间
+        # log10(10000) = 4, log10(10000000) = 7
+        # bonus 范围约 0.2 ~ 0.35
+        import math
+        bonus = math.log10(digg_count + 1) * 0.05
+    elif douyin_heat > 0:
+        # 假设热度在 100万~5000万
+        # 归一化处理
+        bonus = min(douyin_heat / 100000000, 0.5)  # 上限 50% 加成
+        
+    final_score = base_score * (1 + bonus)
+    return round(final_score, 4)
 
 
 def find_in_mainstream(
@@ -443,7 +564,12 @@ def identify_dark_horses(
             is_dark_horse = True
         
         # 计算分数
-        gap_score = calculate_gap_score(track.rank, mainstream_rank)
+        gap_score = calculate_gap_score(
+            track.rank, 
+            mainstream_rank, 
+            douyin_heat=track.heat, 
+            digg_count=track.digg_count
+        )
         
         # 生成匹配键
         match_key = generate_match_key(track.track_name, track.artist)
@@ -459,6 +585,8 @@ def identify_dark_horses(
             is_dark_horse=is_dark_horse,
             discovery_time=discovery_time,
             match_key=match_key,
+            douyin_digg=track.digg_count,
+            douyin_collect=track.collect_count,
         ))
     
     # 按 gap_score 降序排序
@@ -493,7 +621,13 @@ def analyze_dark_horses(
     if use_mock:
         douyin_tracks = get_mock_douyin_tracks()
     else:
-        douyin_tracks = fetch_netease_douyin_chart(limit=50)
+        # 优先尝试从数据库获取
+        douyin_tracks = fetch_douyin_from_db(limit=50)
+        
+        if not douyin_tracks:
+            print("  [INFO] No data in DB, fetching from Netease API...")
+            douyin_tracks = fetch_netease_douyin_chart(limit=50)
+            
         if not douyin_tracks:
             print("  [WARN] API failed, falling back to mock data")
             douyin_tracks = get_mock_douyin_tracks()

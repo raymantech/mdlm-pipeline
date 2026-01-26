@@ -75,8 +75,10 @@ def create_tables(conn: sqlite3.Connection):
         snapshot_id INTEGER NOT NULL,
         track_platform_id TEXT NOT NULL,
         track_name TEXT NOT NULL,
+        artist_name_raw TEXT,
         rank INTEGER NOT NULL,
         heat REAL,
+        extra_metrics TEXT,
         raw_json TEXT,
         created_at TEXT NOT NULL DEFAULT (datetime('now')),
         FOREIGN KEY(snapshot_id) REFERENCES chart_snapshot(id)
@@ -84,6 +86,19 @@ def create_tables(conn: sqlite3.Connection):
     """)
     cur.execute("CREATE INDEX IF NOT EXISTS idx_entry_snapshot ON chart_entry(snapshot_id);")
     cur.execute("CREATE INDEX IF NOT EXISTS idx_entry_trackid ON chart_entry(track_platform_id);")
+
+    # 简单的迁移逻辑：检查是否缺少列
+    try:
+        cur.execute("SELECT artist_name_raw FROM chart_entry LIMIT 1")
+    except sqlite3.OperationalError:
+        print("  [db_init] Migrating: Adding artist_name_raw to chart_entry")
+        cur.execute("ALTER TABLE chart_entry ADD COLUMN artist_name_raw TEXT")
+
+    try:
+        cur.execute("SELECT extra_metrics FROM chart_entry LIMIT 1")
+    except sqlite3.OperationalError:
+        print("  [db_init] Migrating: Adding extra_metrics to chart_entry")
+        cur.execute("ALTER TABLE chart_entry ADD COLUMN extra_metrics TEXT")
 
     conn.commit()
 

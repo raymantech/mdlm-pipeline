@@ -343,6 +343,21 @@ def parse_douyin_songs(payload: Dict[str, Any], limit: int) -> List[Dict[str, An
             0
         )
         
+        # 尝试提取点赞和收藏
+        digg_count = (
+            track.get("digg_count") or 
+            track.get("statistics", {}).get("digg_count") or
+            track.get("stats", {}).get("digg_count") or 
+            0
+        )
+        
+        collect_count = (
+            track.get("collect_count") or 
+            track.get("statistics", {}).get("collect_count") or
+            track.get("stats", {}).get("collect_count") or 
+            0
+        )
+        
         track_platform_id = f"douyin:{music_id}" if music_id else f"douyin:{rank}"
         
         out.append({
@@ -354,6 +369,8 @@ def parse_douyin_songs(payload: Dict[str, Any], limit: int) -> List[Dict[str, An
             "extra_metrics": {
                 "music_id": music_id,
                 "heat": heat,
+                "digg_count": digg_count,
+                "collect_count": collect_count,
                 "source": payload.get("source", ""),
             },
         })

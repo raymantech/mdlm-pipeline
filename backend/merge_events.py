@@ -58,11 +58,24 @@ def ensure_merged_table(conn: sqlite3.Connection) -> None:
         best_delta INTEGER,
         best_narrative TEXT,
         source_event_ids_json TEXT,
+        max_heat REAL,
+        max_digg INTEGER,
+        max_collect INTEGER,
         created_at TEXT NOT NULL
     )
     """)
     conn.execute("CREATE INDEX IF NOT EXISTS idx_merged_event_date ON merged_event(merge_date)")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_merged_event_key ON merged_event(merge_key)")
+
+    # 简单迁移逻辑
+    try:
+        conn.execute("SELECT max_heat FROM merged_event LIMIT 1")
+    except sqlite3.OperationalError:
+        print("  [merge_events] Migrating: Adding max_heat, max_digg, max_collect to merged_event")
+        conn.execute("ALTER TABLE merged_event ADD COLUMN max_heat REAL")
+        conn.execute("ALTER TABLE merged_event ADD COLUMN max_digg INTEGER")
+        conn.execute("ALTER TABLE merged_event ADD COLUMN max_collect INTEGER")
+
     conn.commit()
 
 
