@@ -1,6 +1,9 @@
 name: Schedule Probe
 
 on:
+  push:
+    paths:
+      - ".github/workflows/schedule_probe.yml"
   schedule:
     - cron: "*/10 * * * *"
   workflow_dispatch:
