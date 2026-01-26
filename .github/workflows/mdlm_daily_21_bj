@@ -1,0 +1,109 @@
+name: MDLM Daily Pipeline (21:00 BJ)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 北京时间 21:00 = UTC 13:00
+    - cron: "0 13 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mdlm-daily-21
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main (code)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Create venv + install deps
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -V
+          python -m venv .venv
+          . .venv/bin/activate
+          python -m pip install -U pip
+          python -m pip install -r backend/requirements.txt
+
+      - name: Run pipeline (daily + export)
+        shell: bash
+        env:
+          EXPORT_DAYS: "7"
+        run: |
+          set -euo pipefail
+          . .venv/bin/activate
+          python backend/run_daily.py
+
+      - name: Verify output exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f frontend/data/merged_events_latest.json
+          ls -lh frontend/data/merged_events_latest.json
+
+      # 用 worktree 操作 data 分支，避免 checkout 覆盖主分支工作区文件
+      - name: Push output to data branch (worktree)
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 拉取远端分支信息（更稳）
+          git fetch origin --prune
+
+          # 确保远端存在 data 分支；不存在则创建
+          if git show-ref --verify --quiet refs/remotes/origin/data; then
+            echo "[INFO] origin/data exists"
+          else
+            echo "[INFO] origin/data not found, creating empty data branch"
+            git checkout --orphan data
+            git rm -rf .
+            mkdir -p data
+            echo "data branch for MDLM outputs" > data/README.txt
+            git add data/README.txt
+            git commit -m "init data branch"
+            git push -u origin data
+            git checkout main
+          fi
+
+          # 准备 worktree
+          rm -rf ../_data_branch
+          git worktree add ../_data_branch data
+
+          mkdir -p ../_data_branch/data
+          cp -f frontend/data/merged_events_latest.json ../_data_branch/data/merged_events_latest.json
+
+          cd ../_data_branch
+          git add data/merged_events_latest.json
+
+          if git diff --cached --quiet; then
+            echo "[INFO] No changes to commit on data branch."
+          else
+            git commit -m "data: update merged_events_latest.json ($(date -u +'%Y-%m-%d %H:%M:%S') UTC)"
+            git push origin data
+          fi
+
+          cd -
+          git worktree remove ../_data_branch --force
+          rm -rf ../_data_branch
+
+      - name: Upload artifact (merged_events_latest.json)
+        uses: actions/upload-artifact@v4
+        with:
+          name: merged_events_latest
+          path: frontend/data/merged_events_latest.json
