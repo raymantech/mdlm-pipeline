@@ -131,7 +131,7 @@ jobs:
           cd ../_data_branch
           git add data/merged_events_latest.json || true
           if [ -f data/charts.db ]; then
-            git add data/charts.db
+            git add -f data/charts.db
           fi
 
           if git diff --cached --quiet; then
