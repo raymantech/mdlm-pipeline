@@ -119,7 +119,21 @@ jobs:
             echo "[WARN] backend/charts.db not found after run."
           fi
 
-      # 推送数据到 data 分支（简化版，避免 worktree）
+      # 保存输出文件到临时目录（在切换分支前）
+      - name: Save outputs to temp
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/mdlm_outputs
+          cp -f frontend/data/merged_events_latest.json /tmp/mdlm_outputs/
+          if [ -f backend/charts.db ]; then
+            cp -f backend/charts.db /tmp/mdlm_outputs/
+            echo "[INFO] Saved charts.db ($(ls -lh /tmp/mdlm_outputs/charts.db | awk '{print $5}'))"
+          fi
+          echo "[INFO] Saved merged_events_latest.json"
+          ls -la /tmp/mdlm_outputs/
+
+      # 推送数据到 data 分支
       - name: Push outputs to data branch
         shell: bash
         run: |
@@ -128,20 +142,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 保存当前输出文件
-          mkdir -p /tmp/mdlm_outputs
-          cp -f frontend/data/merged_events_latest.json /tmp/mdlm_outputs/
-          if [ -f backend/charts.db ]; then
-            cp -f backend/charts.db /tmp/mdlm_outputs/
-          fi
+          # 清理工作区的修改，以便切换分支
+          git checkout -- . 2>/dev/null || true
+          git clean -fd 2>/dev/null || true
 
-          # 切换到 data 分支
-          git fetch origin data:data 2>/dev/null || git checkout --orphan data
-          
-          if git show-ref --verify --quiet refs/heads/data; then
-            git checkout data
+          # 确保 data 分支存在
+          if git show-ref --verify --quiet refs/remotes/origin/data; then
+            echo "[INFO] Fetching data branch..."
+            git fetch origin data
+            git checkout -B data origin/data
           else
-            # 创建新的 data 分支
+            echo "[INFO] Creating new data branch..."
             git checkout --orphan data
             git rm -rf . 2>/dev/null || true
             mkdir -p data
@@ -173,14 +184,11 @@ jobs:
                 echo "[INFO] Push successful"
                 break
               else
-                echo "[WARN] Push attempt $i failed, retrying..."
+                echo "[WARN] Push attempt $i failed, retrying in $((4 * i))s..."
                 sleep $((4 * i))
               fi
             done
           fi
-
-          # 切回 main 分支
-          git checkout main || true
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
