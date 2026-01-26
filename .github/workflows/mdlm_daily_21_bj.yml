@@ -3,8 +3,7 @@ name: MDLM Daily Pipeline (21:00 BJ)
 on:
   workflow_dispatch:
   schedule:
-    # 北京时间 21:00 = UTC 13:00
-    - cron: "0 13 * * *"
+  - cron: "*/10 * * * *"
 
 permissions:
   contents: write
