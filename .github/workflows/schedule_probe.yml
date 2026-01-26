@@ -1,8 +1,11 @@
 name: Schedule Probe
 
 on:
+  push:
+    paths:
+      - ".github/workflows/schedule_probe.yml"
   schedule:
-    - cron: "*/5 * * * *"   # 每 5 分钟
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
