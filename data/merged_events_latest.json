@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-01-26 21:52:37",
-  "total_events": 3571,
+  "generated_at": "2026-01-26 22:07:06",
+  "total_events": 3877,
   "total_days": 7,
   "date_distribution": {
-    "2026-01-26": 53,
+    "2026-01-26": 359,
     "2026-01-25": 881,
     "2026-01-20": 730,
     "2026-01-19": 626,
@@ -12,6 +12,5902 @@
     "2026-01-16": 28
   },
   "events": [
+    {
+      "platform": "网易云音乐",
+      "track": "小白",
+      "artist": "周柏豪",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "暴跌",
+        "DROP"
+      ],
+      "rank_now": 85,
+      "rank_prev": 36,
+      "delta": 49,
+      "severity": 3,
+      "id": 5300,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Lay Down",
+      "artist": "Caravan Palace",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 32,
+      "rank_prev": 71,
+      "delta": -39,
+      "severity": 3,
+      "id": 5299,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "怪你",
+      "artist": "L71",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE",
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 23,
+      "rank_prev": 55,
+      "delta": -32,
+      "severity": 3,
+      "id": 5298,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "越陷越深 (有歌第二季第4期（live）)",
+      "artist": "阿杜/欢子",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 100,
+      "delta": null,
+      "severity": 3,
+      "id": 5296,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "天后",
+      "artist": "陈势安",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 99,
+      "delta": null,
+      "severity": 3,
+      "id": 5295,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Good Person",
+      "artist": "VZEUS",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 98,
+      "delta": null,
+      "severity": 3,
+      "id": 5294,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "数钱的女孩",
+      "artist": "连麻Swimming/热单间HEATROOM",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 97,
+      "delta": null,
+      "severity": 3,
+      "id": 5293,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "CoCo",
+      "artist": "Castle J/BIXXB",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 96,
+      "delta": null,
+      "severity": 3,
+      "id": 5292,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "누가 봐도 우린 (Be My Love)",
+      "artist": "EXO-CBX",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 95,
+      "delta": null,
+      "severity": 3,
+      "id": 5291,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Automotivo Bayside 2.0",
+      "artist": "TOKYOPHILE",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 94,
+      "delta": null,
+      "severity": 3,
+      "id": 5290,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "虫儿飞",
+      "artist": "贝乐虎儿歌",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 93,
+      "delta": null,
+      "severity": 3,
+      "id": 5289,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Napoleon (feat. Stellys)",
+      "artist": "Alan Aztec/Stellys",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 92,
+      "delta": null,
+      "severity": 3,
+      "id": 5288,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "谢礼",
+      "artist": "银河快递",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 91,
+      "delta": null,
+      "severity": 3,
+      "id": 5287,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "可能性",
+      "artist": "arou",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 89,
+      "delta": null,
+      "severity": 3,
+      "id": 5286,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "月がきれい",
+      "artist": "東山奈央",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 88,
+      "delta": null,
+      "severity": 3,
+      "id": 5285,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "第三人称",
+      "artist": "hush！",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 87,
+      "delta": null,
+      "severity": 3,
+      "id": 5284,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "大眠",
+      "artist": "王心凌",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 86,
+      "delta": null,
+      "severity": 3,
+      "id": 5283,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "还是分开（Acoustic Version）",
+      "artist": "张叶蕾",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 85,
+      "delta": null,
+      "severity": 3,
+      "id": 5282,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "没曾想 (我们还是一步步走到了今天)",
+      "artist": "GoldenOcean",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 84,
+      "delta": null,
+      "severity": 3,
+      "id": 5281,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "She is",
+      "artist": "邹晔Ganny",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 83,
+      "delta": null,
+      "severity": 3,
+      "id": 5280,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Goodbye to Your Love feat. Ai Ninomiya",
+      "artist": "re:plus/二宮愛",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 82,
+      "delta": null,
+      "severity": 3,
+      "id": 5279,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "天若有情",
+      "artist": "黄丽玲",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 81,
+      "delta": null,
+      "severity": 3,
+      "id": 5278,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "葬花",
+      "artist": "THT",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 80,
+      "delta": null,
+      "severity": 3,
+      "id": 5277,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "命运",
+      "artist": "家家",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 79,
+      "delta": null,
+      "severity": 3,
+      "id": 5276,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "千灯绘",
+      "artist": "洛天依Official",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 78,
+      "delta": null,
+      "severity": 3,
+      "id": 5275,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "난 니가 좋아",
+      "artist": "진호/이명훈",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 77,
+      "delta": null,
+      "severity": 3,
+      "id": 5274,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "썸 탈꺼야",
+      "artist": "脸红的思春期",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 76,
+      "delta": null,
+      "severity": 3,
+      "id": 5273,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "泪流决堤",
+      "artist": "病",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 75,
+      "delta": null,
+      "severity": 3,
+      "id": 5272,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "我们的故事",
+      "artist": "潘德林/文迪/刘金羽",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 74,
+      "delta": null,
+      "severity": 3,
+      "id": 5271,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "人生路漫漫 (有歌第二季第4期（live）)",
+      "artist": "岳云鹏/白小白",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 73,
+      "delta": null,
+      "severity": 3,
+      "id": 5270,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Let Me Be Your Lover Feat. TINY7",
+      "artist": "SETI/TINY7",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 72,
+      "delta": null,
+      "severity": 3,
+      "id": 5269,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "UwU Funk",
+      "artist": "Lunak",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 70,
+      "delta": null,
+      "severity": 3,
+      "id": 5268,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "MONTAGEM REBOLA",
+      "artist": "Atlxs/DJ FKU",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 69,
+      "delta": null,
+      "severity": 3,
+      "id": 5267,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "处处吻",
+      "artist": "杨千嬅",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 68,
+      "delta": null,
+      "severity": 3,
+      "id": 5266,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "抽纸 (爱人的能力)",
+      "artist": "Li-2c (李楚楚)",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 67,
+      "delta": null,
+      "severity": 3,
+      "id": 5265,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "小时候（超火转场）",
+      "artist": "Билали",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 66,
+      "delta": null,
+      "severity": 3,
+      "id": 5264,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "窝囊废",
+      "artist": "谭维维/刘凤瑶",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 65,
+      "delta": null,
+      "severity": 3,
+      "id": 5263,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Tyndall",
+      "artist": "Youzee Music",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 64,
+      "delta": null,
+      "severity": 3,
+      "id": 5262,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "习惯失恋",
+      "artist": "容祖儿",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 63,
+      "delta": null,
+      "severity": 3,
+      "id": 5261,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "隐喻",
+      "artist": "廖泽蓝/蘑菇鼠牙",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 62,
+      "delta": null,
+      "severity": 3,
+      "id": 5260,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "可惜没如果",
+      "artist": "林俊杰",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 61,
+      "delta": null,
+      "severity": 3,
+      "id": 5259,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Higher",
+      "artist": "Tobu",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 60,
+      "delta": null,
+      "severity": 3,
+      "id": 5258,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "阿婆说",
+      "artist": "希林娜依高",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 58,
+      "delta": null,
+      "severity": 3,
+      "id": 5256,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "氤氲之森",
+      "artist": "CMJ",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 57,
+      "delta": null,
+      "severity": 3,
+      "id": 5255,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "嗜好（LIVE）",
+      "artist": "网易音乐人/颜人中",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 56,
+      "delta": null,
+      "severity": 3,
+      "id": 5254,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "无尽幸福",
+      "artist": "凌晨一点的莱茵猫/二乘",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 53,
+      "delta": null,
+      "severity": 3,
+      "id": 5253,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "break",
+      "artist": "郑润泽/Yhon",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 52,
+      "delta": null,
+      "severity": 3,
+      "id": 5252,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "ループザルーム (feat. 初音ミク)",
+      "artist": "ルシノ/初音ミク",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 51,
+      "delta": null,
+      "severity": 3,
+      "id": 5251,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "对峙",
+      "artist": "SETI/THOME",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 50,
+      "delta": null,
+      "severity": 3,
+      "id": 5250,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "带我走",
+      "artist": "杨丞琳",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 49,
+      "delta": null,
+      "severity": 3,
+      "id": 5249,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "泡沫 (G.E.M.重生版)",
+      "artist": "G.E.M.邓紫棋",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 48,
+      "delta": null,
+      "severity": 3,
+      "id": 5248,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "HEAVENLY JUMPSTYLE (Tiktok Version)",
+      "artist": "TWXNY/Sxilwix/INNXCENCE",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 47,
+      "delta": null,
+      "severity": 3,
+      "id": 5247,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "幻痛药 Hurt And Hurt Ft.LSGCsikoriot四口",
+      "artist": "Tlatre特雷西/LSGCsikoriot",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 46,
+      "delta": null,
+      "severity": 3,
+      "id": 5246,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "恶作剧",
+      "artist": "林依晨",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 45,
+      "delta": null,
+      "severity": 3,
+      "id": 5245,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "내일은 없어",
+      "artist": "Trouble Maker",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 43,
+      "delta": null,
+      "severity": 3,
+      "id": 5244,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Midnight Call",
+      "artist": "ぜったくん/kojikoji",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 42,
+      "delta": null,
+      "severity": 3,
+      "id": 5243,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Cry For Me (WA WA WA) (feat. Bubi)",
+      "artist": "Ironmouse/shirobeats/HalaCG/Bubi",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 41,
+      "delta": null,
+      "severity": 3,
+      "id": 5242,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "最后一页",
+      "artist": "江语晨",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 40,
+      "delta": null,
+      "severity": 3,
+      "id": 5241,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "完美嘲讽",
+      "artist": "所长sama",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 39,
+      "delta": null,
+      "severity": 3,
+      "id": 5240,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "輕輕 (deca joins Version)",
+      "artist": "陳嫺靜/deca joins",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 38,
+      "delta": null,
+      "severity": 3,
+      "id": 5239,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "夏洛特烦恼 (live)",
+      "artist": "李佳薇/王赫野",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 37,
+      "delta": null,
+      "severity": 3,
+      "id": 5238,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "月牙湾",
+      "artist": "F.I.R.",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 34,
+      "delta": null,
+      "severity": 3,
+      "id": 5237,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Scar Face(撕碎挡在我面前的一切)",
+      "artist": "BOY/KKK",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 33,
+      "delta": null,
+      "severity": 3,
+      "id": 5236,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "爱错",
+      "artist": "王力宏",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 32,
+      "delta": null,
+      "severity": 3,
+      "id": 5235,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Masquerade",
+      "artist": "Lindsey Stirling",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 31,
+      "delta": null,
+      "severity": 3,
+      "id": 5234,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "We Don't Talk Anymore (Mr. Collipark Remix)",
+      "artist": "Charlie Puth/Selena Gomez/Mr. Collipark",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 29,
+      "delta": null,
+      "severity": 3,
+      "id": 5233,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "沦陷",
+      "artist": "JuggShots",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 28,
+      "delta": null,
+      "severity": 3,
+      "id": 5232,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "会呼吸的痛",
+      "artist": "梁静茹",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 23,
+      "delta": null,
+      "severity": 3,
+      "id": 5231,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Homage Funk",
+      "artist": "NEON YORU",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 22,
+      "delta": null,
+      "severity": 3,
+      "id": 5230,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "暗恋过 结局呢",
+      "artist": "新街口组合",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 21,
+      "delta": null,
+      "severity": 3,
+      "id": 5229,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "失落沙洲",
+      "artist": "徐佳莹",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 19,
+      "delta": null,
+      "severity": 3,
+      "id": 5228,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "SAYONARAベイベー",
+      "artist": "加藤ミリヤ",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 18,
+      "delta": null,
+      "severity": 3,
+      "id": 5227,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "NO BATIDÃO",
+      "artist": "ZXKAI/SLXUGHTER",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 17,
+      "delta": null,
+      "severity": 3,
+      "id": 5226,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "想你的夜",
+      "artist": "关喆",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 16,
+      "delta": null,
+      "severity": 3,
+      "id": 5225,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "别哭了我爱你",
+      "artist": "不要杀死我的爱",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 15,
+      "delta": null,
+      "severity": 3,
+      "id": 5224,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "海誓山盟",
+      "artist": "王震/Lost Team",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 14,
+      "delta": null,
+      "severity": 3,
+      "id": 5223,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "空中飞人 (live)",
+      "artist": "汪苏泷",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 13,
+      "delta": null,
+      "severity": 3,
+      "id": 5222,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "晚安",
+      "artist": "颜人中",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 10,
+      "delta": null,
+      "severity": 3,
+      "id": 5221,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "NO BATIDÃO",
+      "artist": "冻痛",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 8,
+      "delta": null,
+      "severity": 3,
+      "id": 5220,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "落泪",
+      "artist": "康熙/TOYOKI",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 7,
+      "delta": null,
+      "severity": 3,
+      "id": 5219,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "小胡同",
+      "artist": "郑润泽",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 5,
+      "delta": null,
+      "severity": 3,
+      "id": 5218,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "精卫（万物终归向海）",
+      "artist": "银翼杀手",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 4,
+      "delta": null,
+      "severity": 3,
+      "id": 5217,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "你那边天气好不好 你好不好",
+      "artist": "恋愛幸运星",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5215,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Got It 5 (PHONK Pt.2)",
+      "artist": "VZEUS",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5214,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "我们都一样",
+      "artist": "张杰",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5213,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Beanie",
+      "artist": "Chezile",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5212,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Inner Circle",
+      "artist": "KAVO",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5211,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "啥啊",
+      "artist": "星葵77 / 洛天依Official",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5210,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Alone in the Sky",
+      "artist": "The fin.",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5209,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Scar Face(撕碎挡在我面前的一切)",
+      "artist": "BOY / KKK",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5208,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "HitPopDragonHand",
+      "artist": "澤野弘之",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5207,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "和你",
+      "artist": "余佳运",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "暴跌",
+        "DROP"
+      ],
+      "rank_now": 97,
+      "rank_prev": 83,
+      "delta": 14,
+      "severity": 3,
+      "id": 5201,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "咏春",
+      "artist": "七朵组合",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 19,
+      "rank_prev": 44,
+      "delta": -25,
+      "severity": 3,
+      "id": 5200,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "女儿心如水",
+      "artist": "黄龄",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 77,
+      "rank_prev": 87,
+      "delta": -10,
+      "severity": 3,
+      "id": 5199,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "开始懂了",
+      "artist": "孙燕姿",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 66,
+      "rank_prev": 76,
+      "delta": -10,
+      "severity": 3,
+      "id": 5198,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "给陌生的你听",
+      "artist": "G.G张思源",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "暴跌",
+        "DROP",
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": 44,
+      "rank_prev": 31,
+      "delta": 13,
+      "severity": 3,
+      "id": 5197,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "勇气",
+      "artist": "梁静茹",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 98,
+      "delta": null,
+      "severity": 3,
+      "id": 5196,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "心似烟火",
+      "artist": "陈壹千",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 95,
+      "delta": null,
+      "severity": 3,
+      "id": 5195,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "time machine (feat. aren park)",
+      "artist": "mj apanay/aren park",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 91,
+      "delta": null,
+      "severity": 3,
+      "id": 5194,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "沉溺 (你让我的心不再结冰）",
+      "artist": "邹沛沛/Pank",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 85,
+      "delta": null,
+      "severity": 3,
+      "id": 5193,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "素颜",
+      "artist": "许嵩/何曼婷",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 81,
+      "delta": null,
+      "severity": 3,
+      "id": 5192,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "我爱你但是我要回家",
+      "artist": "ET/Happer/无面小生/口古口古",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 53,
+      "delta": null,
+      "severity": 3,
+      "id": 5191,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "知我",
+      "artist": "国风堂/哦漏",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 49,
+      "delta": null,
+      "severity": 3,
+      "id": 5190,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "如果爱忘了 (live)",
+      "artist": "汪苏泷/单依纯",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 38,
+      "delta": null,
+      "severity": 3,
+      "id": 5189,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Star Crossing Night (feat. GALI)",
+      "artist": "徐明浩/GALI",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 29,
+      "delta": null,
+      "severity": 3,
+      "id": 5188,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "苦茶子",
+      "artist": "Starling8/MoreLearn 27/FIVESTAR",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 27,
+      "delta": null,
+      "severity": 3,
+      "id": 5187,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "左转灯 (1000 Times +1)",
+      "artist": "派伟俊/mac ova seas",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 25,
+      "delta": null,
+      "severity": 3,
+      "id": 5186,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "还是会想你",
+      "artist": "林达浪/h3R3",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 20,
+      "delta": null,
+      "severity": 3,
+      "id": 5185,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Marry",
+      "artist": "Top Barry/INDEcompany",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 19,
+      "delta": null,
+      "severity": 3,
+      "id": 5184,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "罗生门（Follow）",
+      "artist": "梨冻紧/Wiz_H张子豪",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 6,
+      "delta": null,
+      "severity": 3,
+      "id": 5183,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "还是会想你",
+      "artist": "林达浪 / h3R3",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5182,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Beat Yourself Up",
+      "artist": "Charlie Puth",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴跌",
+        "DROP"
+      ],
+      "rank_now": 89,
+      "rank_prev": 79,
+      "delta": 10,
+      "severity": 3,
+      "id": 5180,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "无关紧要",
+      "artist": "郑润泽",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 87,
+      "rank_prev": 99,
+      "delta": -12,
+      "severity": 3,
+      "id": 5179,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "ROCK THE BOAT",
+      "artist": "XG",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴跌",
+        "DROP"
+      ],
+      "rank_now": 83,
+      "rank_prev": 59,
+      "delta": 24,
+      "severity": 3,
+      "id": 5178,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "TAKE MY BREATH",
+      "artist": "XG",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴跌",
+        "DROP"
+      ],
+      "rank_now": 79,
+      "rank_prev": 55,
+      "delta": 24,
+      "severity": 3,
+      "id": 5177,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "失语梦",
+      "artist": "M3mo",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 76,
+      "rank_prev": 86,
+      "delta": -10,
+      "severity": 3,
+      "id": 5175,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "哎哟",
+      "artist": "郑润泽",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 75,
+      "rank_prev": 87,
+      "delta": -12,
+      "severity": 3,
+      "id": 5174,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Daydream",
+      "artist": "WENDY",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 58,
+      "rank_prev": 72,
+      "delta": -14,
+      "severity": 3,
+      "id": 5173,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Yurugumni Yara Kildig",
+      "artist": "xapaat osman",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 57,
+      "rank_prev": 82,
+      "delta": -25,
+      "severity": 3,
+      "id": 5172,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "烂花",
+      "artist": "王赫野",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 54,
+      "rank_prev": 70,
+      "delta": -16,
+      "severity": 3,
+      "id": 5171,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "我表示理解",
+      "artist": "单依纯",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 51,
+      "rank_prev": 61,
+      "delta": -10,
+      "severity": 3,
+      "id": 5170,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Transmigration",
+      "artist": "漂移的人（Drifting Man）",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE",
+        "暴跌",
+        "DROP"
+      ],
+      "rank_now": 49,
+      "rank_prev": 75,
+      "delta": -26,
+      "severity": 3,
+      "id": 5169,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "爱不冲动",
+      "artist": "王一珩OneSD",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE",
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 48,
+      "rank_prev": 67,
+      "delta": -19,
+      "severity": 3,
+      "id": 5168,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Promise",
+      "artist": "Wonstein",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE",
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 39,
+      "rank_prev": 64,
+      "delta": -25,
+      "severity": 3,
+      "id": 5167,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "等下次",
+      "artist": "郑润泽",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "暴涨",
+        "SURGE"
+      ],
+      "rank_now": 36,
+      "rank_prev": 48,
+      "delta": -12,
+      "severity": 3,
+      "id": 5166,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "TOX2C (毒药)",
+      "artist": "李佳隆/KITO",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 100,
+      "delta": null,
+      "severity": 3,
+      "id": 5164,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "TATA-Super Slowed",
+      "artist": "羊音乐",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 98,
+      "delta": null,
+      "severity": 3,
+      "id": 5163,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "普通的日子",
+      "artist": "魏如萱",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 96,
+      "delta": null,
+      "severity": 3,
+      "id": 5162,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "折枝花满衣",
+      "artist": "徐泽（要不要买菜）",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 92,
+      "delta": null,
+      "severity": 3,
+      "id": 5160,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "占有（Live）",
+      "artist": "周深/薛之谦",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 90,
+      "delta": null,
+      "severity": 3,
+      "id": 5159,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "NO GOOD",
+      "artist": "XG",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 85,
+      "delta": null,
+      "severity": 3,
+      "id": 5158,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "爱你但说不出口 (live)",
+      "artist": "黄丽玲/徐子未",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 84,
+      "delta": null,
+      "severity": 3,
+      "id": 5157,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "猜 (live)",
+      "artist": "汪苏泷/希林娜依高",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 81,
+      "delta": null,
+      "severity": 3,
+      "id": 5156,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "UP NOW",
+      "artist": "XG",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 80,
+      "delta": null,
+      "severity": 3,
+      "id": 5155,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Aperture",
+      "artist": "Harry Styles",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 78,
+      "delta": null,
+      "severity": 3,
+      "id": 5154,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "一半一半",
+      "artist": "CHOCKEY有三/TizzyT",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 76,
+      "delta": null,
+      "severity": 3,
+      "id": 5153,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "WHERE YOU AT",
+      "artist": "ALLDAY PROJECT/ANNIE/WOOCHAN",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 74,
+      "delta": null,
+      "severity": 3,
+      "id": 5152,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "ALL I Need Freestyle",
+      "artist": "王以太/俞天时/GALI",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 71,
+      "delta": null,
+      "severity": 3,
+      "id": 5151,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "慢冷 (live)",
+      "artist": "黄龄/周兴哲",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 68,
+      "delta": null,
+      "severity": 3,
+      "id": 5150,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "化雪",
+      "artist": "陈卓璇/刘宇",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 58,
+      "delta": null,
+      "severity": 3,
+      "id": 5149,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "房间 (live)",
+      "artist": "周兴哲/黄霄雲",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 57,
+      "delta": null,
+      "severity": 3,
+      "id": 5148,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Kiss Me (live)",
+      "artist": "汪苏泷/王赫野",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 51,
+      "delta": null,
+      "severity": 3,
+      "id": 5147,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "轻轻 (live)",
+      "artist": "林宥嘉/欧阳娜娜",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 47,
+      "delta": null,
+      "severity": 3,
+      "id": 5146,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "爱人啊",
+      "artist": "言承旭/五月天 阿信",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 46,
+      "delta": null,
+      "severity": 3,
+      "id": 5145,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "麦子 (live)",
+      "artist": "汪苏泷/颜人中",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 45,
+      "delta": null,
+      "severity": 3,
+      "id": 5144,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "彩铃",
+      "artist": "陈一豪Clear/王以太",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 44,
+      "delta": null,
+      "severity": 3,
+      "id": 5143,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "幸福刑(feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&MEIKO)",
+      "artist": "ProSEAKIプロセカ/宵崎奏/朝比奈まふゆ/東雲絵名/暁山瑞希/MEIKO",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 36,
+      "delta": null,
+      "severity": 3,
+      "id": 5142,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Don't Leave (live)",
+      "artist": "林宥嘉/周兴哲",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 35,
+      "delta": null,
+      "severity": 3,
+      "id": 5141,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Tiny Giant 小巨星",
+      "artist": "三Z-STUDIO/HOYO-MiX/Ashley Alisha",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 33,
+      "delta": null,
+      "severity": 3,
+      "id": 5140,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "不死身ごっこ (feat. 初音ミク)",
+      "artist": "ピノキオピー/初音ミク",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 31,
+      "delta": null,
+      "severity": 3,
+      "id": 5139,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "耳塞",
+      "artist": "Dobi/郑润泽",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 28,
+      "delta": null,
+      "severity": 3,
+      "id": 5138,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "活死人2026Cypher",
+      "artist": "活死人/杨和苏KeyNG/JarStick/隆历奇/李毅杰PISSY/Buzzy/小精灵/杨秋儒/法老/鼠尾草/喉结蜥蜴",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 26,
+      "delta": null,
+      "severity": 3,
+      "id": 5137,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "屋顶 (live)",
+      "artist": "周兴哲/姚晓棠",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 25,
+      "delta": null,
+      "severity": 3,
+      "id": 5136,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Why Not ft.卡力老虎&JesseMargiela",
+      "artist": "SABER徐天知/卡力老虎/Jesse Margiela",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 23,
+      "delta": null,
+      "severity": 3,
+      "id": 5135,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "患失",
+      "artist": "PanT",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 22,
+      "delta": null,
+      "severity": 3,
+      "id": 5134,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "幸福如履薄冰",
+      "artist": "4444/悲伤情绪海/冰心",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 19,
+      "delta": null,
+      "severity": 3,
+      "id": 5133,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "大花轿 (feat.火风)",
+      "artist": "张艺兴/火风",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 16,
+      "delta": null,
+      "severity": 3,
+      "id": 5132,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "unhappy",
+      "artist": "s0rrow",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 14,
+      "delta": null,
+      "severity": 3,
+      "id": 5131,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Marry（羁绊）（有歌第二季第3期）（live）",
+      "artist": "袁娅维TIA RAY/Top Barry",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 13,
+      "delta": null,
+      "severity": 3,
+      "id": 5130,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "窃爱者",
+      "artist": "L8R/阿林/#0000FF",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 8,
+      "delta": null,
+      "severity": 3,
+      "id": 5129,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "冬与你pt2",
+      "artist": "万乐体/酸酸你小子",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 5,
+      "delta": null,
+      "severity": 3,
+      "id": 5128,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "幻昼（PHONK)",
+      "artist": "漂移的人（Drifting Man）",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 4,
+      "delta": null,
+      "severity": 3,
+      "id": 5127,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "一半一半",
+      "artist": "Top Barry/INDEcompany",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "热歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "掉出榜",
+        "EXIT"
+      ],
+      "rank_now": null,
+      "rank_prev": 1,
+      "delta": null,
+      "severity": 3,
+      "id": 5126,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Why Not ft.卡力老虎&JesseMargiela",
+      "artist": "SABER徐天知 / 卡力老虎 / Jesse Margiela",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5125,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "幸福如履薄冰",
+      "artist": "4444 / 悲伤情绪海 / 冰心",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5124,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Marry（羁绊）（有歌第二季第3期）（live）",
+      "artist": "袁娅维TIA RAY / Top Barry",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5123,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "不死身ごっこ (feat. 初音ミク)",
+      "artist": "ピノキオピー / 初音ミク",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5122,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "大花轿 (feat.火风)",
+      "artist": "张艺兴 / 火风",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 3,
+      "id": 5121,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Quiet Room",
+      "artist": "최인희 / 오혜주",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 100,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5412,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "比起千言万语我更希望你一直在我身边",
+      "artist": "红月",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 99,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5411,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "连续剧",
+      "artist": "容祖儿",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 98,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5410,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "思绪回到从前",
+      "artist": "碎冰冰.",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 97,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5409,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "白色衣服",
+      "artist": "gs.l",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 96,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5408,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "苦笑",
+      "artist": "汪苏泷",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 95,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5407,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "宏愿",
+      "artist": "周柏豪",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 94,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5406,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "普通朋友",
+      "artist": "陶喆",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 93,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5405,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "JUICY",
+      "artist": "Jordan Ward",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 92,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5404,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "蒲公英",
+      "artist": "欧瑞SoulCore / 小咪Misir",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 91,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5403,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Cold Night",
+      "artist": "HANA",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 90,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5402,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Lullaby (mega remix)",
+      "artist": "Jaydon / Paradise / Usher",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 88,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5401,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "NO BATIDÃO",
+      "artist": "MerrinZephyr",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 87,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5400,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Amani",
+      "artist": "Beyond",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 86,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5399,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "绝对占有，相对自由",
+      "artist": "陈粒",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 84,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5398,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Ex-Otogibanashi",
+      "artist": "ryo (supercell) / かぐや(cv.夏吉ゆうこ) / 月見ヤチヨ(cv.早見沙織)",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 83,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5397,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "사랑의 언어 (Love Language)",
+      "artist": "金敏奭 (MeloMance)",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 82,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5396,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "野火",
+      "artist": "夏哲轩",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 80,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5395,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Beautiful Beautiful",
+      "artist": "ONF",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 79,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5394,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "洋葱 (Live)",
+      "artist": "茜拉",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 78,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5393,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Soft Apocalypse",
+      "artist": "Richz",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 77,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5392,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Noble Breath",
+      "artist": "巴 日和(CV.花江 夏樹) / あんさんぶるスターズ！！",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 76,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5391,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "可惜不可以",
+      "artist": "蔡旻佑",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 75,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5390,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "我走以后",
+      "artist": "Running johnny / 水仙LONE",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 74,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5389,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Vibe (氛围)",
+      "artist": "秋美",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 73,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5388,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "part of me",
+      "artist": "Graham",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 71,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5387,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Feeling it All",
+      "artist": "Maiah Manser",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 70,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5386,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "囚笼",
+      "artist": "北昼",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 69,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5385,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Snooze",
+      "artist": "Devin Kennedy",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 67,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5383,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Midnight Call",
+      "artist": "ぜったくん / kojikoji",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 66,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5382,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "疏远",
+      "artist": "陈文非",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 65,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5381,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Little Things",
+      "artist": "Ella Mai",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 64,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5380,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "星降る海",
+      "artist": "Aqu3ra / 月見ヤチヨ(cv.早見沙織)",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 63,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5379,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "16岁",
+      "artist": "伍六七",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 62,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5378,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "UNICUBE!",
+      "artist": "Leoseven / Obaka",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 61,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5377,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "某某",
+      "artist": "鱼子酱大王",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 60,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5376,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Oyunquk Suygu新版（2026）",
+      "artist": "YusupAli~RoZi",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 59,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5375,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "我跳下了船Catch Me!!!",
+      "artist": "摄音记 / 张天奕ZTYick / 杨世贸",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 58,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5374,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "News",
+      "artist": "Clara La San",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 57,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5373,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "life has dead (命似荒原)",
+      "artist": "Seto",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 56,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5372,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Falling",
+      "artist": "Another Øne",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 55,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5371,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "错位有时差",
+      "artist": "陈文非",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 54,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5370,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "When I Get Old (feat. Christopher & CHUNG HA) [Remix] [Radio Edit]",
+      "artist": "Arkins / Epiik / 金请夏 / Christopher",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 53,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5369,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "坠落",
+      "artist": "一杯面",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 52,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5368,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "约定",
+      "artist": "周蕙",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 51,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5367,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "背影",
+      "artist": "晚安",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 50,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5366,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "上天啊",
+      "artist": "真名有雪",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 49,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5365,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "美丽的泡沫",
+      "artist": "Jesen李同",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 47,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5364,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Cause all I need",
+      "artist": "sleepyyer",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 46,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5363,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "葡萄成熟时",
+      "artist": "陈奕迅",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 45,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5362,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "挪威的森林",
+      "artist": "伍佰",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 43,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5360,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "苦海无涯 Beat",
+      "artist": "粒粒 / jos10",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 42,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5359,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "SENTE BATIDA",
+      "artist": "bxkq / Synn",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 41,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5358,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Don't Wanna Know/We Don't Talk Anymore",
+      "artist": "Sam Tsui / Alex Blue",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 40,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5357,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "囍帖街",
+      "artist": "谢安琪",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 39,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5356,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "隐喻",
+      "artist": "廖泽蓝 / 蘑菇鼠牙",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 36,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5355,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "爱我老己",
+      "artist": "晓婧",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 35,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5354,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "你总是这样（遇上难回答的问题又不说话了）",
+      "artist": "arou",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 34,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5353,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "结婚记",
+      "artist": "水仙斗活佛",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 33,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5352,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Power",
+      "artist": "JordanBeats",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 31,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5351,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "He's Mine",
+      "artist": "MoKenStef",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 30,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5350,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "down in the deep sea",
+      "artist": "漂移的人（Drifting Man）",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 29,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5349,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "鸢尾花(Iris)",
+      "artist": "段弋",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 28,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5348,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "MONTAGEM REBOLA",
+      "artist": "Atlxs / DJ FKU",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 89,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5347,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "近心悸",
+      "artist": "米牙",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 26,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5346,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "失恋罪",
+      "artist": "LeaF.Y / 烧麦",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 21,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5345,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "遇上你之前的我",
+      "artist": "Gareth.T",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 99,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5340,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "曾经是情侣 (Live)",
+      "artist": "梁博",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 93,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5339,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "沉溺 (你让我的心不再结冰）",
+      "artist": "邹沛沛 / Pank",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 85,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5338,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "time machine (feat. aren park)",
+      "artist": "mj apanay / aren park",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 84,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5337,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "素颜",
+      "artist": "许嵩 / 何曼婷",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 83,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5336,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "我爱你但是我要回家",
+      "artist": "ET / Happer / 无面小生 / 口古口古",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 52,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5335,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "知我",
+      "artist": "国风堂 / 哦漏",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 49,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5334,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "如果爱忘了 (live)",
+      "artist": "汪苏泷 / 单依纯",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 33,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5333,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Marry",
+      "artist": "Top Barry / INDEcompany",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 30,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5332,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Star Crossing Night (feat. GALI)",
+      "artist": "徐明浩 / GALI",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 29,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5331,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "苦茶子",
+      "artist": "Starling8 / MoreLearn 27 / FIVESTAR",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 26,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5330,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "左转灯 (1000 Times +1)",
+      "artist": "派伟俊 / mac ova seas",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 22,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5329,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Breaker Breaker",
+      "artist": "Miles \"JC\" Million",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 100,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5326,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "玻璃",
+      "artist": "张博闻",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 99,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5325,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "ワールドイズマイン (かぐや&月見ヤチヨ ver.) [CPK! Remix]",
+      "artist": "ryo (supercell) / かぐや(cv.夏吉ゆうこ) / 月見ヤチヨ(cv.早見沙織)",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 98,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5324,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "I Just Might",
+      "artist": "Bruno Mars",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 97,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5323,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "PROVANT",
+      "artist": "SawanoHiroyuki[nZk] / Jean-Ken Johnny / TAKUMA",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 91,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5322,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Town/Blunt",
+      "artist": "delphia!",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 85,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5321,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Dear D (甜蜜版)",
+      "artist": "项睿娴",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 82,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5320,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "占有（Live）",
+      "artist": "周深 / 薛之谦",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 81,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5319,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "窝囊废",
+      "artist": "谭维维 / 刘凤瑶",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 78,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5318,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "WHERE YOU AT",
+      "artist": "ALLDAY PROJECT / ANNIE / WOOCHAN",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 72,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5317,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "雨下的那一天",
+      "artist": "陈默之",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 70,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5316,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "一半一半",
+      "artist": "CHOCKEY有三 / TizzyT",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 68,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5315,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "ALL I Need Freestyle",
+      "artist": "王以太 / 俞天时 / GALI",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 67,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5314,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "爱你但说不出口 (live)",
+      "artist": "黄丽玲 / 徐子未",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 66,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5313,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Kiss Me (live)",
+      "artist": "汪苏泷 / 王赫野",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 65,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5312,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "慢冷 (live)",
+      "artist": "黄龄 / 周兴哲",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 61,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5311,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "轻轻 (live)",
+      "artist": "林宥嘉 / 欧阳娜娜",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 55,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5309,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "爱人啊",
+      "artist": "言承旭 / 五月天 阿信",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 46,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5308,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "化雪",
+      "artist": "陈卓璇 / 刘宇",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 43,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5307,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "麦子 (live)",
+      "artist": "汪苏泷 / 颜人中",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 41,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5306,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "屋顶 (live)",
+      "artist": "周兴哲 / 姚晓棠",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 40,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5305,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "房间 (live)",
+      "artist": "周兴哲 / 黄霄雲",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 31,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5303,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "幸福刑(feat. 宵崎奏&朝比奈まふゆ&東雲絵名&暁山瑞希&MEIKO)",
+      "artist": "ProSEAKIプロセカ / 宵崎奏 / 朝比奈まふゆ / 東雲絵名 / 暁山瑞希 / MEIKO",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 29,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5302,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "活死人2026Cypher",
+      "artist": "活死人 / 杨和苏KeyNG / JarStick / 隆历奇 / 李毅杰PISSY / Buzzy / 小精灵 / 杨秋儒 / 法老 / 鼠尾草 / 喉结蜥蜴",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "新进榜",
+        "ENTRY"
+      ],
+      "rank_now": 21,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 2,
+      "id": 5301,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Gotta Have You",
+      "artist": "The Weepies",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5471,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "下完这场雨（有歌第二季第二期）Live",
+      "artist": "后弦",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5452,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "小半",
+      "artist": "陈粒",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5465,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "星期几星期几？",
+      "artist": "Bo Peep",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5473,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "对白",
+      "artist": "李艺彤",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5472,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Love太过痛",
+      "artist": "越千山 / 白昼星BZX",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5470,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "消散的味道",
+      "artist": "高旭",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5469,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "能伴此梦无",
+      "artist": "黄诗扶 / 一梦江湖",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5468,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "罗生门（Follow）",
+      "artist": "梨冻紧 / Wiz_H张子豪",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5463,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "如果我因为你夜不能寐",
+      "artist": "彭雅琦（Yakisa）",
+      "date": "2026-01-26",
+      "charts": [
+        "原创榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5439,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "第三个吻痕",
+      "artist": "李思甜",
+      "date": "2026-01-26",
+      "charts": [
+        "飙升榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5474,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "you were my life (你曾是我的一切)",
+      "artist": "Seto",
+      "date": "2026-01-26",
+      "charts": [
+        "原创榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5440,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "冬与你pt2",
+      "artist": "万乐体 / 酸酸你小子",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5453,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "一半一半",
+      "artist": "Top Barry / INDEcompany",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜",
+        "热歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5449,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "HYPNOTIZE",
+      "artist": "XG",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5455,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Never Let Go",
+      "artist": "LNGSHOT",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5450,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "唯一",
+      "artist": "G.E.M.邓紫棋",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5466,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "失眠",
+      "artist": "Suki刘舒妤",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5464,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "雨过后的风景",
+      "artist": "Dizzy Dizzo (蔡诗芸)",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5462,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "是你没选我啊",
+      "artist": "音乐科代表洪嘉源",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5451,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "彩铃",
+      "artist": "陈一豪Clear / 王以太",
+      "date": "2026-01-26",
+      "charts": [
+        "原创榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5442,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "耳塞",
+      "artist": "Dobi / 郑润泽",
+      "date": "2026-01-26",
+      "charts": [
+        "原创榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5443,
+      "narrative": "",
+      "source_event_ids": []
+    },
     {
       "platform": "酷狗音乐",
       "track": "最真的梦 (合唱团版)",
@@ -29,7 +5925,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5118,
+      "id": 5501,
       "narrative": "",
       "source_event_ids": []
     },
@@ -50,7 +5946,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5117,
+      "id": 5500,
       "narrative": "",
       "source_event_ids": []
     },
@@ -71,7 +5967,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5116,
+      "id": 5499,
       "narrative": "",
       "source_event_ids": []
     },
@@ -92,7 +5988,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5115,
+      "id": 5498,
       "narrative": "",
       "source_event_ids": []
     },
@@ -113,7 +6009,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5114,
+      "id": 5497,
       "narrative": "",
       "source_event_ids": []
     },
@@ -134,7 +6030,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5113,
+      "id": 5496,
       "narrative": "",
       "source_event_ids": []
     },
@@ -155,7 +6051,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5112,
+      "id": 5495,
       "narrative": "",
       "source_event_ids": []
     },
@@ -176,7 +6072,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5111,
+      "id": 5494,
       "narrative": "",
       "source_event_ids": []
     },
@@ -197,7 +6093,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5110,
+      "id": 5493,
       "narrative": "",
       "source_event_ids": []
     },
@@ -218,7 +6114,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5109,
+      "id": 5492,
       "narrative": "",
       "source_event_ids": []
     },
@@ -239,7 +6135,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5108,
+      "id": 5491,
       "narrative": "",
       "source_event_ids": []
     },
@@ -260,7 +6156,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5107,
+      "id": 5490,
       "narrative": "",
       "source_event_ids": []
     },
@@ -281,7 +6177,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5106,
+      "id": 5489,
       "narrative": "",
       "source_event_ids": []
     },
@@ -302,7 +6198,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5105,
+      "id": 5488,
       "narrative": "",
       "source_event_ids": []
     },
@@ -323,7 +6219,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5104,
+      "id": 5487,
       "narrative": "",
       "source_event_ids": []
     },
@@ -344,7 +6240,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5103,
+      "id": 5486,
       "narrative": "",
       "source_event_ids": []
     },
@@ -365,7 +6261,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5102,
+      "id": 5485,
       "narrative": "",
       "source_event_ids": []
     },
@@ -386,7 +6282,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5101,
+      "id": 5484,
       "narrative": "",
       "source_event_ids": []
     },
@@ -407,7 +6303,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5100,
+      "id": 5483,
       "narrative": "",
       "source_event_ids": []
     },
@@ -428,7 +6324,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5099,
+      "id": 5482,
       "narrative": "",
       "source_event_ids": []
     },
@@ -451,7 +6347,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5098,
+      "id": 5481,
       "narrative": "",
       "source_event_ids": []
     },
@@ -472,7 +6368,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5097,
+      "id": 5480,
       "narrative": "",
       "source_event_ids": []
     },
@@ -493,7 +6389,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5096,
+      "id": 5479,
       "narrative": "",
       "source_event_ids": []
     },
@@ -514,7 +6410,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5095,
+      "id": 5478,
       "narrative": "",
       "source_event_ids": []
     },
@@ -535,7 +6431,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5094,
+      "id": 5477,
       "narrative": "",
       "source_event_ids": []
     },
@@ -556,7 +6452,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5093,
+      "id": 5476,
       "narrative": "",
       "source_event_ids": []
     },
@@ -578,7 +6474,303 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5092,
+      "id": 5475,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Dear D (亲爱的告诉你)",
+      "artist": "项睿娴",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5467,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "恋人",
+      "artist": "李荣浩",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5461,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "如果呢",
+      "artist": "郑润泽",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5460,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "海屿你",
+      "artist": "马也_Crabbit",
+      "date": "2026-01-26",
+      "charts": [
+        "热歌榜",
+        "飙升榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5459,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "假意 Beat",
+      "artist": "prodjaded",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5458,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "直到你降临 2026",
+      "artist": "阿肆",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5457,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "苦海无涯",
+      "artist": "Ditay7",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5456,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "Moonwalkin'",
+      "artist": "LNGSHOT",
+      "date": "2026-01-26",
+      "charts": [
+        "新歌榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5454,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "物非人非 DID I ？",
+      "artist": "DOMMIU李由音 / Vansdaddy",
+      "date": "2026-01-26",
+      "charts": [
+        "原创榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5448,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "即乐世界",
+      "artist": "王子健",
+      "date": "2026-01-26",
+      "charts": [
+        "原创榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5447,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "孟婆汤",
+      "artist": "国产阿发",
+      "date": "2026-01-26",
+      "charts": [
+        "原创榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5446,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "TOX2C (毒药)",
+      "artist": "李佳隆 / KITO",
+      "date": "2026-01-26",
+      "charts": [
+        "原创榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5445,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "滔滔",
+      "artist": "吴垚滔",
+      "date": "2026-01-26",
+      "charts": [
+        "原创榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5444,
+      "narrative": "",
+      "source_event_ids": []
+    },
+    {
+      "platform": "网易云音乐",
+      "track": "鼠你会rap？",
+      "artist": "马思唯",
+      "date": "2026-01-26",
+      "charts": [
+        "原创榜"
+      ],
+      "tags": [
+        "每日快照",
+        "Top10",
+        "DAILY_SNAPSHOT"
+      ],
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1,
+      "id": 5441,
       "narrative": "",
       "source_event_ids": []
     },
@@ -599,7 +6791,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5091,
+      "id": 5438,
       "narrative": "",
       "source_event_ids": []
     },
@@ -620,7 +6812,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5090,
+      "id": 5437,
       "narrative": "",
       "source_event_ids": []
     },
@@ -641,7 +6833,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5089,
+      "id": 5436,
       "narrative": "",
       "source_event_ids": []
     },
@@ -662,7 +6854,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5088,
+      "id": 5435,
       "narrative": "",
       "source_event_ids": []
     },
@@ -683,7 +6875,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5087,
+      "id": 5434,
       "narrative": "",
       "source_event_ids": []
     },
@@ -704,7 +6896,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5086,
+      "id": 5433,
       "narrative": "",
       "source_event_ids": []
     },
@@ -725,7 +6917,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5085,
+      "id": 5432,
       "narrative": "",
       "source_event_ids": []
     },
@@ -746,7 +6938,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5084,
+      "id": 5431,
       "narrative": "",
       "source_event_ids": []
     },
@@ -767,7 +6959,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5083,
+      "id": 5430,
       "narrative": "",
       "source_event_ids": []
     },
@@ -788,7 +6980,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5082,
+      "id": 5429,
       "narrative": "",
       "source_event_ids": []
     },
@@ -809,7 +7001,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5081,
+      "id": 5428,
       "narrative": "",
       "source_event_ids": []
     },
@@ -830,7 +7022,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5080,
+      "id": 5427,
       "narrative": "",
       "source_event_ids": []
     },
@@ -851,7 +7043,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5079,
+      "id": 5426,
       "narrative": "",
       "source_event_ids": []
     },
@@ -873,7 +7065,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5078,
+      "id": 5425,
       "narrative": "",
       "source_event_ids": []
     },
@@ -894,7 +7086,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5077,
+      "id": 5424,
       "narrative": "",
       "source_event_ids": []
     },
@@ -916,7 +7108,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5076,
+      "id": 5423,
       "narrative": "",
       "source_event_ids": []
     },
@@ -937,7 +7129,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5075,
+      "id": 5422,
       "narrative": "",
       "source_event_ids": []
     },
@@ -958,7 +7150,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5074,
+      "id": 5421,
       "narrative": "",
       "source_event_ids": []
     },
@@ -979,7 +7171,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5073,
+      "id": 5420,
       "narrative": "",
       "source_event_ids": []
     },
@@ -1000,7 +7192,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5072,
+      "id": 5419,
       "narrative": "",
       "source_event_ids": []
     },
@@ -1021,7 +7213,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5071,
+      "id": 5418,
       "narrative": "",
       "source_event_ids": []
     },
@@ -1042,7 +7234,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5070,
+      "id": 5417,
       "narrative": "",
       "source_event_ids": []
     },
@@ -1063,7 +7255,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5069,
+      "id": 5416,
       "narrative": "",
       "source_event_ids": []
     },
@@ -1085,7 +7277,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5068,
+      "id": 5415,
       "narrative": "",
       "source_event_ids": []
     },
@@ -1107,7 +7299,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5067,
+      "id": 5414,
       "narrative": "",
       "source_event_ids": []
     },
@@ -1128,7 +7320,7 @@
       "rank_prev": null,
       "delta": null,
       "severity": 1,
-      "id": 5066,
+      "id": 5413,
       "narrative": "",
       "source_event_ids": []
     },
