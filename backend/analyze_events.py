@@ -351,6 +351,52 @@ def analyze_top10_behavior(
     return out
 
 
+def generate_daily_snapshot_events(
+    chart_id: int,
+    platform_name: str,
+    chart_name: str,
+    today_entries: List[Dict[str, Any]],
+    top_n: int = 10,
+) -> List[EventRow]:
+    """
+    为每天的 Top N 歌曲生成"每日快照"事件
+    确保即使没有检测到变化，前端也能展示当天的榜单数据
+    """
+    events: List[EventRow] = []
+    
+    for entry in today_entries[:top_n]:
+        rank = entry.get("rank")
+        if rank is None or rank > top_n:
+            continue
+            
+        track_name = entry.get("track_name", "")
+        artist = entry.get("artist", "")
+        
+        tid = stable_track_platform_id(platform_name, chart_name, track_name, artist)
+        
+        events.append(
+            EventRow(
+                chart_id=chart_id,
+                track_platform_id=tid,
+                event_type="DAILY_SNAPSHOT",
+                severity=1,  # 最低严重程度
+                evidence={
+                    "platform": platform_name,
+                    "chart": chart_name,
+                    "track_name": track_name,
+                    "artist": artist,
+                    "rank_prev": None,
+                    "rank_now": rank,
+                    "delta_rank": None,
+                    "tags": ["每日快照", "Top10"],
+                },
+                narrative=f"{platform_name}-{chart_name}：Top{rank} {track_name}",
+            )
+        )
+    
+    return events
+
+
 def analyze_chart(
     conn: sqlite3.Connection,
     chart_id: int,
@@ -367,9 +413,16 @@ def analyze_chart(
         return []
 
     today_entries = fetch_snapshot_entries(conn, sid_today, colmap, EVENT_TOPK_FOR_EVENTS)
+    
+    # 始终生成每日快照事件（确保每天都有数据）
+    snapshot_events = generate_daily_snapshot_events(
+        chart_id, platform_name, chart_name, today_entries, top_n=10
+    )
 
     if not sid_yest:
-        return analyze_top10_behavior(conn, chart_id, platform_name, chart_name, today, today_entries, colmap)
+        # 没有昨天的数据，只返回快照事件 + Top10 行为分析
+        top10_events = analyze_top10_behavior(conn, chart_id, platform_name, chart_name, today, today_entries, colmap)
+        return snapshot_events + top10_events
 
     yest_entries = fetch_snapshot_entries(conn, sid_yest, colmap, EVENT_TOPK_FOR_EVENTS)
     today_map = {make_track_key(x["track_name"], x["artist"]): x for x in today_entries}
@@ -481,7 +534,9 @@ def analyze_chart(
             )
 
     events.extend(analyze_top10_behavior(conn, chart_id, platform_name, chart_name, today, today_entries, colmap))
-    return events
+    
+    # 合并快照事件和检测到的变化事件
+    return snapshot_events + events
 
 
 def build_daily_summary(day: str, threshold: int, charts: List[Tuple[int, str, str]], events: List[EventRow]) -> str:
@@ -499,7 +554,7 @@ def build_daily_summary(day: str, threshold: int, charts: List[Tuple[int, str, s
             f"{day} 榜单监测摘要（阈值：名次变化≥{threshold}）",
             f"- 覆盖榜单：{len(charts)} 个；今日产出事件：{len(events)} 条",
             f"- 平台分布：{platforms}",
-            f"- 新进榜：{by_type.get('ENTRY', 0)}；掉出榜：{by_type.get('EXIT', 0)}；暴涨：{by_type.get('SURGE', 0)}；暴跌：{by_type.get('DROP', 0)}；Top10稳定：{by_type.get('TOP10_STABLE', 0)}；连续3天Top10：{by_type.get('DOMINANT', 0)}",
+            f"- 新进榜：{by_type.get('ENTRY', 0)}；掉出榜：{by_type.get('EXIT', 0)}；暴涨：{by_type.get('SURGE', 0)}；暴跌：{by_type.get('DROP', 0)}；Top10稳定：{by_type.get('TOP10_STABLE', 0)}；连续3天Top10：{by_type.get('DOMINANT', 0)}；每日快照：{by_type.get('DAILY_SNAPSHOT', 0)}",
         ]
     )
 

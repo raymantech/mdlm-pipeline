@@ -160,6 +160,8 @@ def merge(day: str) -> None:
                 group = "STABLE"      # severity=2
             elif et == "DOMINANT":
                 group = "DOMINANT"    # severity=3
+            elif et == "DAILY_SNAPSHOT":
+                group = "SNAPSHOT"    # severity=1
             else:
                 group = "OTHER"
 
