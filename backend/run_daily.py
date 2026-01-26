@@ -85,6 +85,14 @@ def main():
             run([PY, str(netease_script)], "Ingest Netease Music charts")
         except Exception as e:
             print(f"{ts()} [WARN] Netease ingest failed: {e}")
+    
+    # 抖音/汽水音乐（独立脚本）
+    douyin_script = ROOT / "ingest_douyin.py"
+    if douyin_script.exists():
+        try:
+            run([PY, str(douyin_script)], "Ingest Douyin/Qishui Music charts")
+        except Exception as e:
+            print(f"{ts()} [WARN] Douyin ingest failed: {e}")
 
     # 3) 事件分析 - 传递目标日期
     analyze_script = ROOT / "analyze_events.py"
