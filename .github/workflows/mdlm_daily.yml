@@ -21,8 +21,7 @@ concurrency:
 
 env:
   TZ: Asia/Shanghai
-  EXPORT_DAYS: "0"  # 0 表示导出全部，让增量合并逻辑处理
-  # 线上历史数据 URL（用于增量合并）
+  EXPORT_DAYS: "0"
   HISTORY_JSON_URL: "https://mdlm.hawnlink.cn/data/merged_events_latest.json"
 
 jobs:
@@ -42,17 +41,13 @@ jobs:
           echo "Asia/Shanghai" | sudo tee /etc/timezone
           echo "Current Beijing time: $(date '+%Y-%m-%d %H:%M:%S')"
 
-      # 从 data 分支恢复历史 charts.db
       - name: Restore charts.db from data branch
         shell: bash
         run: |
           set -euo pipefail
-
           git fetch origin --prune
-
           if git show-ref --verify --quiet refs/remotes/origin/data; then
             echo "[INFO] origin/data exists, restoring charts.db..."
-            
             mkdir -p backend
             if git show origin/data:data/charts.db > backend/charts.db 2>/dev/null; then
               ls -lh backend/charts.db
@@ -64,19 +59,14 @@ jobs:
             echo "[INFO] origin/data branch not found, will create new database."
           fi
 
-      # 下载线上历史 JSON（用于增量合并）
       - name: Download existing history JSON
         shell: bash
         run: |
           set -euo pipefail
-          
           mkdir -p frontend/data
-          
           echo "[INFO] Downloading history from $HISTORY_JSON_URL..."
-          if curl -fsSL --connect-timeout 30 --max-time 60 \
-               -o frontend/data/merged_events_latest.json \
-               "$HISTORY_JSON_URL" 2>/dev/null; then
-            EVENT_COUNT=$(python3 -c "import json; d=json.load(open('frontend/data/merged_events_latest.json')); print(len(d.get('events', [])))" 2>/dev/null || echo "0")
+          if curl -fsSL --connect-timeout 30 --max-time 60 -o frontend/data/merged_events_latest.json "$HISTORY_JSON_URL" 2>/dev/null; then
+            EVENT_COUNT=$(python3 -c "import json; print(len(json.load(open('frontend/data/merged_events_latest.json')).get('events', [])))" 2>/dev/null || echo "0")
             echo "[INFO] Downloaded history with $EVENT_COUNT events"
             ls -lh frontend/data/merged_events_latest.json
           else
@@ -107,9 +97,7 @@ jobs:
         run: |
           set -euo pipefail
           . .venv/bin/activate
-          
           echo "Beijing time now: $(date '+%Y-%m-%d %H:%M:%S')"
-          
           if [ -n "${TARGET_DATE:-}" ]; then
             echo "Running with target date: $TARGET_DATE"
             python backend/run_daily.py --date "$TARGET_DATE"
@@ -122,32 +110,19 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          
           if [ -f frontend/data/merged_events_latest.json ]; then
             ls -lh frontend/data/merged_events_latest.json
-            python3 -c "
-import json
-with open('frontend/data/merged_events_latest.json') as f:
-    d = json.load(f)
-print(f'Total events: {d.get(\"total_events\", len(d.get(\"events\", [])))}')
-print(f'Total days: {d.get(\"total_days\", \"N/A\")}')
-print('Recent dates:', list(d.get('date_distribution', {}).items())[:5])
-"
+            python3 -c "import json; d=json.load(open('frontend/data/merged_events_latest.json')); print('Total events:', d.get('total_events', len(d.get('events', [])))); print('Total days:', d.get('total_days', 'N/A'))"
           else
             echo "[ERROR] merged_events_latest.json not found!"
             exit 1
           fi
-          
           if [ -f backend/charts.db ]; then
             ls -lh backend/charts.db
-            echo "Database tables:"
             sqlite3 backend/charts.db ".tables"
-            echo "merged_event count: $(sqlite3 backend/charts.db 'SELECT COUNT(*) FROM merged_event' 2>/dev/null || echo 'table not exists')"
-          else
-            echo "[WARN] backend/charts.db not found after run."
+            echo "merged_event count: $(sqlite3 backend/charts.db 'SELECT COUNT(*) FROM merged_event' 2>/dev/null || echo 'N/A')"
           fi
 
-      # 保存输出文件到临时目录
       - name: Save outputs to temp
         shell: bash
         run: |
@@ -160,20 +135,14 @@ print('Recent dates:', list(d.get('date_distribution', {}).items())[:5])
           fi
           echo "[INFO] Saved merged_events_latest.json ($(ls -lh /tmp/mdlm_outputs/merged_events_latest.json | awk '{print $5}'))"
 
-      # 推送数据到 data 分支
       - name: Push outputs to data branch
         shell: bash
         run: |
           set -euo pipefail
-
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          # 清理工作区
           git checkout -- . 2>/dev/null || true
           git clean -fd 2>/dev/null || true
-
-          # 切换到 data 分支
           if git show-ref --verify --quiet refs/remotes/origin/data; then
             echo "[INFO] Fetching data branch..."
             git fetch origin data
@@ -187,31 +156,25 @@ print('Recent dates:', list(d.get('date_distribution', {}).items())[:5])
             git add data/README.txt
             git commit -m "init data branch"
           fi
-
-          # 复制输出文件
           mkdir -p data
           cp -f /tmp/mdlm_outputs/merged_events_latest.json data/
           if [ -f /tmp/mdlm_outputs/charts.db ]; then
             cp -f /tmp/mdlm_outputs/charts.db data/
           fi
-
-          # 提交并推送
           git add data/merged_events_latest.json
           git add -f data/charts.db 2>/dev/null || true
-
           if git diff --cached --quiet; then
             echo "[INFO] No changes to commit on data branch."
           else
             BEIJING_TIME=$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')
-            EVENT_COUNT=$(python3 -c "import json; d=json.load(open('data/merged_events_latest.json')); print(d.get('total_events', len(d.get('events', []))))" 2>/dev/null || echo "?")
+            EVENT_COUNT=$(python3 -c "import json; print(json.load(open('data/merged_events_latest.json')).get('total_events', '?'))" 2>/dev/null || echo "?")
             git commit -m "data: update outputs ($BEIJING_TIME Beijing) - $EVENT_COUNT events"
-            
             for i in 1 2 3 4; do
               if git push -u origin data; then
                 echo "[INFO] Push successful"
                 break
               else
-                echo "[WARN] Push attempt $i failed, retrying in $((4 * i))s..."
+                echo "[WARN] Push attempt $i failed, retrying..."
                 sleep $((4 * i))
               fi
             done
