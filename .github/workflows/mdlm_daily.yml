@@ -94,6 +94,7 @@ jobs:
           EXPORT_DAYS: "0"
           TARGET_DATE: ${{ github.event.inputs.target_date }}
           HISTORY_JSON_URL: ${{ env.HISTORY_JSON_URL }}
+          DOUYIN_COOKIE: ${{ secrets.DOUYIN_COOKIE }}
         run: |
           set -euo pipefail
           . .venv/bin/activate
