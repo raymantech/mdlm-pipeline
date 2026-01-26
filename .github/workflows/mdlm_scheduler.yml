@@ -2,9 +2,9 @@ name: MDLM Scheduler (21:00 BJ)
 
 on:
   push:
-     paths: 
-     - ".github/workflows/mdlm_scheduler.yml"
-  workflow_dispatch:
+    paths:
+      - ".github/workflows/mdlm_scheduler.yml"
+      
   schedule:
     # 北京时间 21:00 = UTC 13:00
     - cron: "0 13 * * *"
