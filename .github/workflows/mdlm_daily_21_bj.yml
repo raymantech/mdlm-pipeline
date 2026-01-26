@@ -1,4 +1,4 @@
-name: MDLM Daily Pipeline (21:00 BJ)
+name: MDLM Daily Pipeline (Dispatch Only)
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: mdlm-daily-21
+  group: mdlm-daily
   cancel-in-progress: false
 
 jobs:
@@ -19,6 +19,34 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      # 关键：尝试从 data 分支恢复历史 charts.db（作为事件对比基线）
+      - name: Restore charts.db from data branch (if exists)
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git fetch origin --prune
+
+          if git show-ref --verify --quiet refs/remotes/origin/data; then
+            echo "[INFO] origin/data exists, try restore charts.db"
+            rm -rf ../_data_restore
+            git worktree add ../_data_restore data
+
+            if [ -f ../_data_restore/data/charts.db ]; then
+              mkdir -p backend
+              cp -f ../_data_restore/data/charts.db backend/charts.db
+              ls -lh backend/charts.db
+              echo "[INFO] Restored backend/charts.db from data branch."
+            else
+              echo "[INFO] data/charts.db not found on data branch, skip restore."
+            fi
+
+            git worktree remove ../_data_restore --force
+            rm -rf ../_data_restore
+          else
+            echo "[INFO] origin/data not found, skip restore."
+          fi
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -44,15 +72,22 @@ jobs:
           . .venv/bin/activate
           python backend/run_daily.py
 
-      - name: Verify output exists
+      - name: Verify outputs exist
         shell: bash
         run: |
           set -euo pipefail
           test -f frontend/data/merged_events_latest.json
           ls -lh frontend/data/merged_events_latest.json
 
-      # 使用 worktree 推送到 data 分支（不污染 main）
-      - name: Push output to data branch (worktree)
+          # charts.db 可能在流程中被创建/更新
+          if [ -f backend/charts.db ]; then
+            ls -lh backend/charts.db
+          else
+            echo "[WARN] backend/charts.db not found after run."
+          fi
+
+      # 推送 merged_events_latest.json + charts.db 到 data 分支（持久化基线）
+      - name: Push outputs to data branch (worktree)
         shell: bash
         run: |
           set -euo pipefail
@@ -62,7 +97,7 @@ jobs:
 
           git fetch origin --prune
 
-          # 确保 data 分支存在
+          # 确保 data 分支存在；不存在则创建
           if git show-ref --verify --quiet refs/remotes/origin/data; then
             echo "[INFO] origin/data exists"
           else
@@ -75,24 +110,34 @@ jobs:
             git commit -m "init data branch"
             git push -u origin data
             git checkout main
+            git fetch origin --prune
           fi
 
           # 创建 worktree
           rm -rf ../_data_branch
           git worktree add ../_data_branch data
 
-          # 拷贝结果文件
+          # 复制输出文件
           mkdir -p ../_data_branch/data
-          cp -f frontend/data/merged_events_latest.json \
-                ../_data_branch/data/merged_events_latest.json
+          cp -f frontend/data/merged_events_latest.json ../_data_branch/data/merged_events_latest.json
+
+          # 同步 charts.db（如果存在）
+          if [ -f backend/charts.db ]; then
+            cp -f backend/charts.db ../_data_branch/data/charts.db
+          else
+            echo "[WARN] backend/charts.db missing, will not update data/charts.db"
+          fi
 
           cd ../_data_branch
-          git add data/merged_events_latest.json
+          git add data/merged_events_latest.json || true
+          if [ -f data/charts.db ]; then
+            git add data/charts.db
+          fi
 
           if git diff --cached --quiet; then
             echo "[INFO] No changes to commit on data branch."
           else
-            git commit -m "data: update merged_events_latest.json ($(date -u +'%Y-%m-%d %H:%M:%S') UTC)"
+            git commit -m "data: update outputs ($(date -u +'%Y-%m-%d %H:%M:%S') UTC)"
             git push origin data
           fi
 
@@ -100,8 +145,10 @@ jobs:
           git worktree remove ../_data_branch --force
           rm -rf ../_data_branch
 
-      - name: Upload artifact (merged_events_latest.json)
+      - name: Upload artifacts (json + charts.db)
         uses: actions/upload-artifact@v4
         with:
-          name: merged_events_latest
-          path: frontend/data/merged_events_latest.json
+          name: mdlm_outputs
+          path: |
+            frontend/data/merged_events_latest.json
+            backend/charts.db
