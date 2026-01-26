@@ -3,9 +3,8 @@ name: MDLM Daily Pipeline (B)
 on:
   workflow_dispatch:
   schedule:
-    # 临时测试：北京时间 11:40 (UTC 03:40)
-    # 测试完成后，请记得改回 "10 23 * * *" (北京时间 07:10)
-    - cron: "40 03 * * *"
+    # 每天北京时间 07:10（UTC 23:10）
+    - cron: "10 23 * * *"
 
 permissions:
   contents: write
@@ -55,6 +54,7 @@ jobs:
           test -f frontend/data/merged_events_latest.json
           ls -lh frontend/data/merged_events_latest.json
 
+      # ✅ 关键：用 worktree 操作 data 分支，避免 checkout 覆盖 charts.db
       - name: Push output to data branch (worktree)
         shell: bash
         run: |
@@ -63,6 +63,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+          # 确保本地有 data 分支（没有就创建）
           if git show-ref --verify --quiet refs/remotes/origin/data; then
             echo "[INFO] origin/data exists"
           else
@@ -77,15 +78,18 @@ jobs:
             git checkout main
           fi
 
+          # 创建 worktree
           rm -rf ../_data_branch
           git worktree add ../_data_branch data
 
+          # 复制输出文件到 data 分支工作区（你也可以改路径）
           mkdir -p ../_data_branch/data
           cp -f frontend/data/merged_events_latest.json ../_data_branch/data/merged_events_latest.json
 
           cd ../_data_branch
           git add data/merged_events_latest.json
 
+          # 若无变化则不提交
           if git diff --cached --quiet; then
             echo "[INFO] No changes to commit on data branch."
           else
@@ -93,10 +97,12 @@ jobs:
             git push origin data
           fi
 
+          # 清理 worktree
           cd -
           git worktree remove ../_data_branch --force
           rm -rf ../_data_branch
 
+      # 可选：同时上传 artifact（方便你在 Actions 页面直接下载）
       - name: Upload artifact (merged_events_latest.json)
         uses: actions/upload-artifact@v4
         with:
