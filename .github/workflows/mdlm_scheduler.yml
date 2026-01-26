@@ -3,8 +3,7 @@ name: MDLM Scheduler (15:30 BJ)
 on:
   workflow_dispatch:
   schedule:
-    # 北京时间 15:30 = UTC 07:30
-    - cron: "30 7 * * *"
+  - cron: "*/5 * * * *"
 
 permissions:
   actions: write
