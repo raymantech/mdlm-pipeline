@@ -90,15 +90,19 @@ def main():
         run([PY, str(merge_script), "--day", target_date], 
             f"Merge events for {target_date}")
 
-    # 5) 导出前端 JSON (仅最近7天)
+    # 5) 导出前端 JSON (增量合并模式)
     export_script = ROOT / "export_dashboard_data.py"
     if export_script.exists():
         out = os.getenv("EXPORT_OUT", 
                         str((ROOT.parent / "frontend" / "data" / "merged_events_latest.json").resolve()))
-        days = os.getenv("EXPORT_DAYS", "7")
+        days = os.getenv("EXPORT_DAYS", "0")  # 0 表示让增量合并逻辑自动处理
+        history_url = os.getenv("HISTORY_JSON_URL", "")
         
-        run([PY, str(export_script), "--days", str(days), "--out", out],
-            f"Export dashboard JSON (last {days} days)")
+        cmd = [PY, str(export_script), "--days", str(days), "--out", out]
+        if history_url:
+            cmd.extend(["--history-url", history_url])
+        
+        run(cmd, f"Export dashboard JSON (incremental merge)")
         
         # 打印导出结果统计
         out_path = Path(out)
