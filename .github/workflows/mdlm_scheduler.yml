@@ -1,9 +1,10 @@
-name: MDLM Scheduler (21:00 BJ)
+name: MDLM Scheduler (15:30 BJ)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 7 * * *"
+    # 北京时间 15:30 = UTC 07:30
+    - cron: "30 7 * * *"
 
 permissions:
   actions: write
@@ -13,7 +14,7 @@ jobs:
   dispatch:
     runs-on: ubuntu-latest
     steps:
-      - name: Dispatch MDLM workflow
+      - name: Dispatch MDLM daily workflow
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OWNER: ${{ github.repository_owner }}
@@ -22,10 +23,8 @@ jobs:
           REF: "main"
         run: |
           set -euo pipefail
-          echo "Dispatching $WORKFLOW_FILE on $REF..."
           curl -sS -X POST \
             -H "Accept: application/vnd.github+json" \
             -H "Authorization: Bearer $GH_TOKEN" \
             https://api.github.com/repos/$OWNER/$REPO/actions/workflows/$WORKFLOW_FILE/dispatches \
             -d "{\"ref\":\"$REF\"}"
-          echo "Done."
