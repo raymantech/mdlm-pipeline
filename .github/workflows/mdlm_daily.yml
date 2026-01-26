@@ -1,0 +1,191 @@
+name: MDLM Daily Pipeline
+
+on:
+  # 定时触发：北京时间 21:00 = UTC 13:00
+  schedule:
+    - cron: "0 13 * * *"
+  # 手动触发（方便测试）
+  workflow_dispatch:
+    inputs:
+      target_date:
+        description: '指定分析日期 (YYYY-MM-DD)，留空则使用北京时间当天'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mdlm-daily
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Shanghai
+  EXPORT_DAYS: "7"
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout main (code)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set timezone to Beijing
+        run: |
+          sudo ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+          echo "Asia/Shanghai" | sudo tee /etc/timezone
+          echo "Current Beijing time: $(date '+%Y-%m-%d %H:%M:%S')"
+
+      # 关键：从 data 分支恢复历史 charts.db（确保数据连续性）
+      - name: Restore charts.db from data branch
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git fetch origin --prune
+
+          if git show-ref --verify --quiet refs/remotes/origin/data; then
+            echo "[INFO] origin/data exists, restoring charts.db..."
+            
+            # 使用 git show 直接读取文件，避免 worktree 复杂性
+            mkdir -p backend
+            if git show origin/data:data/charts.db > backend/charts.db 2>/dev/null; then
+              ls -lh backend/charts.db
+              echo "[INFO] Successfully restored backend/charts.db from data branch."
+            else
+              echo "[INFO] data/charts.db not found on data branch, will create new."
+            fi
+          else
+            echo "[INFO] origin/data branch not found, will create new database."
+          fi
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Create venv + install deps
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -V
+          python -m venv .venv
+          . .venv/bin/activate
+          python -m pip install -U pip
+          python -m pip install -r backend/requirements.txt
+
+      - name: Run MDLM daily pipeline
+        shell: bash
+        env:
+          EXPORT_DAYS: "7"
+          TARGET_DATE: ${{ github.event.inputs.target_date }}
+        run: |
+          set -euo pipefail
+          . .venv/bin/activate
+          
+          echo "Beijing time now: $(date '+%Y-%m-%d %H:%M:%S')"
+          
+          if [ -n "${TARGET_DATE:-}" ]; then
+            echo "Running with target date: $TARGET_DATE"
+            python backend/run_daily.py --date "$TARGET_DATE"
+          else
+            echo "Running with current Beijing date"
+            python backend/run_daily.py
+          fi
+
+      - name: Verify outputs exist
+        shell: bash
+        run: |
+          set -euo pipefail
+          
+          if [ -f frontend/data/merged_events_latest.json ]; then
+            ls -lh frontend/data/merged_events_latest.json
+            echo "Event count: $(python3 -c "import json; d=json.load(open('frontend/data/merged_events_latest.json')); print(len(d.get('events', [])))")"
+          else
+            echo "[ERROR] merged_events_latest.json not found!"
+            exit 1
+          fi
+          
+          if [ -f backend/charts.db ]; then
+            ls -lh backend/charts.db
+            echo "Database tables:"
+            sqlite3 backend/charts.db ".tables"
+            echo "merged_event count: $(sqlite3 backend/charts.db 'SELECT COUNT(*) FROM merged_event' 2>/dev/null || echo 'table not exists')"
+          else
+            echo "[WARN] backend/charts.db not found after run."
+          fi
+
+      # 推送数据到 data 分支（简化版，避免 worktree）
+      - name: Push outputs to data branch
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 保存当前输出文件
+          mkdir -p /tmp/mdlm_outputs
+          cp -f frontend/data/merged_events_latest.json /tmp/mdlm_outputs/
+          if [ -f backend/charts.db ]; then
+            cp -f backend/charts.db /tmp/mdlm_outputs/
+          fi
+
+          # 切换到 data 分支
+          git fetch origin data:data 2>/dev/null || git checkout --orphan data
+          
+          if git show-ref --verify --quiet refs/heads/data; then
+            git checkout data
+          else
+            # 创建新的 data 分支
+            git checkout --orphan data
+            git rm -rf . 2>/dev/null || true
+            mkdir -p data
+            echo "MDLM data branch - stores historical data" > data/README.txt
+            git add data/README.txt
+            git commit -m "init data branch"
+          fi
+
+          # 复制输出文件到 data 目录
+          mkdir -p data
+          cp -f /tmp/mdlm_outputs/merged_events_latest.json data/
+          if [ -f /tmp/mdlm_outputs/charts.db ]; then
+            cp -f /tmp/mdlm_outputs/charts.db data/
+          fi
+
+          # 提交并推送
+          git add data/merged_events_latest.json
+          git add -f data/charts.db 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "[INFO] No changes to commit on data branch."
+          else
+            BEIJING_TIME=$(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S')
+            git commit -m "data: update outputs ($BEIJING_TIME Beijing)"
+            
+            # 推送，带重试
+            for i in 1 2 3 4; do
+              if git push -u origin data; then
+                echo "[INFO] Push successful"
+                break
+              else
+                echo "[WARN] Push attempt $i failed, retrying..."
+                sleep $((4 * i))
+              fi
+            done
+          fi
+
+          # 切回 main 分支
+          git checkout main || true
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: mdlm_outputs
+          path: |
+            /tmp/mdlm_outputs/merged_events_latest.json
+            /tmp/mdlm_outputs/charts.db

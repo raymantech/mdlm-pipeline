@@ -1,5 +1,6 @@
 # FULL_PLATFORM_ANALYZER_V2_1 (daily_summary compatible)
 import os
+import sys
 import json
 import sqlite3
 import argparse
@@ -9,7 +10,15 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+# 确保时区处理模块在路径中
+ROOT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT_DIR))
+
 from mdlm_config import db_path, load_env
+from timezone_utils import (
+    beijing_now_iso, beijing_today_iso, beijing_today,
+    detected_at_for_day, get_target_date
+)
 
 load_env(override=True)
 
@@ -24,7 +33,8 @@ def iso_day(d: date) -> str:
 
 
 def now_iso() -> str:
-    return datetime.now().replace(microsecond=0).isoformat()
+    """使用北京时间"""
+    return beijing_now_iso()
 
 
 def detected_iso(day: str) -> str:
@@ -32,13 +42,10 @@ def detected_iso(day: str) -> str:
 
     We intentionally *do not* use now_iso() here, because backfill/merge flows
     query events by day using: substr(detected_at,1,10)=<day>.
+    
+    使用北京时间确保时区一致性。
     """
-    try:
-        d = date.fromisoformat(day)
-    except Exception:
-        d = date.today()
-    t = datetime.now().replace(microsecond=0).time()
-    return datetime.combine(d, t).replace(microsecond=0).isoformat()
+    return detected_at_for_day(day)
 
 
 def safe_int(x) -> Optional[int]:
@@ -514,7 +521,7 @@ def main() -> None:
 
         def _latest_snapshot_day() -> str:
             row = conn.execute("SELECT max(substr(captured_at,1,10)) FROM chart_snapshot").fetchone()
-            return (row[0] or iso_day(date.today()))
+            return (row[0] or beijing_today_iso())
 
         def _prev_snapshot_day(day: str) -> str:
             row = conn.execute(
@@ -523,7 +530,16 @@ def main() -> None:
             ).fetchone()
             return row[0] or iso_day(date.fromisoformat(day) - timedelta(days=1))
 
-        today = args.day.strip() if isinstance(args.day, str) and args.day.strip() else _latest_snapshot_day()
+        # 优先使用命令行参数，其次使用环境变量 TARGET_DATE，最后使用数据库中最新快照日期
+        if isinstance(args.day, str) and args.day.strip():
+            today = args.day.strip()
+        else:
+            # 尝试从环境变量获取
+            env_date = get_target_date(default=None)
+            if env_date:
+                today = env_date
+            else:
+                today = _latest_snapshot_day()
         yesterday = _prev_snapshot_day(today)
 
         colmap = detect_chart_entry_columns(conn)

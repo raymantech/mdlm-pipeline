@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import time
 import random
@@ -8,7 +9,13 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 import httpx
+
+# 确保时区处理模块在路径中
+ROOT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT_DIR))
+
 from mdlm_config import db_path, load_env
+from timezone_utils import beijing_now_iso, beijing_today_iso
 
 # =========================================================
 # ENV
@@ -38,7 +45,8 @@ QQ_CHARTS: List[Tuple[str, int]] = [
 
 
 def now_iso() -> str:
-    return datetime.now().replace(microsecond=0).isoformat()
+    """使用北京时间"""
+    return beijing_now_iso()
 
 
 def db_connect() -> sqlite3.Connection:
@@ -269,7 +277,7 @@ def ingest_qq(top_n: int = 100) -> None:
     conn = db_connect()
     try:
         platform_id = get_platform_id(conn, PLATFORM_NAME)
-        today = datetime.now().date().isoformat()
+        today = beijing_today_iso()  # 使用北京时间
 
         for chart_name, topid in QQ_CHARTS:
             chart_id = get_chart_id(conn, platform_id, chart_name)
