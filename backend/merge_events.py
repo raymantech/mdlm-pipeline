@@ -1,13 +1,24 @@
+"""
+事件合并模块
+
+将同一天内同一首歌的多个事件合并为一条记录，
+便于前端展示和 Notion 同步
+"""
 import os
 import re
+import sys
 import json
 import sqlite3
 import argparse
-from datetime import date
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
+# 确保时区处理模块在路径中
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+
 from mdlm_config import db_path, load_env
+from timezone_utils import beijing_today_iso, get_target_date
 
 load_env(override=True)
 
@@ -62,7 +73,7 @@ def delete_today_merged(conn: sqlite3.Connection, day: str) -> None:
 
 def fetch_today_events(conn: sqlite3.Connection, day: str) -> List[Dict[str, Any]]:
     """
-    Read from event table.
+    从 event 表读取指定日期的事件
     """
     rows = conn.execute("""
     SELECT id, chart_id, track_platform_id, event_type, severity, detected_at, evidence, narrative
@@ -94,9 +105,9 @@ def fetch_today_events(conn: sqlite3.Connection, day: str) -> List[Dict[str, Any
 
 def pick_best_by_delta(events: List[Dict[str, Any]]) -> Dict[str, Any]:
     """
-    Choose representative event:
-    - Prefer larger absolute delta if exists
-    - Else prefer higher severity
+    选择代表性事件：
+    - 优先选择绝对值 delta 最大的
+    - 否则选择 severity 最高的
     """
     def score(ev: Dict[str, Any]) -> Tuple[int, int]:
         e = ev.get("evidence") or {}
@@ -115,22 +126,25 @@ def pick_best_by_delta(events: List[Dict[str, Any]]) -> Dict[str, Any]:
 
 
 def merge(day: str) -> None:
-    db_path = Path(SQLITE_DB_PATH).resolve()
-    if not db_path.exists():
-        raise SystemExit(f"❌ 找不到 SQLite: {db_path}")
+    """
+    合并指定日期的事件
+    """
+    db_file = Path(SQLITE_DB_PATH).resolve()
+    if not db_file.exists():
+        raise SystemExit(f"❌ 找不到 SQLite: {db_file}")
 
-    conn = sqlite3.connect(str(db_path))
+    conn = sqlite3.connect(str(db_file))
     try:
         ensure_merged_table(conn)
         delete_today_merged(conn, day)
 
         events = fetch_today_events(conn, day)
         if not events:
-            print("⚠️ 今日 event 表没有数据，先跑 analyze_events.py")
+            print(f"⚠️ {day} 的 event 表没有数据，先运行 analyze_events.py")
             return
 
-        # 分行：同一首歌同一天可能同时有 TOP10_STABLE(2) 与 DOMINANT(3)，
-        # 如果只按歌名合并会被 max_severity=3 覆盖，导致 Notion 里筛选不到 严重程度=2。
+        # 分组：同一首歌同一天可能同时有 TOP10_STABLE(2) 与 DOMINANT(3)，
+        # 如果只按歌名合并会被 max_severity=3 覆盖，导致筛选不到 severity=2
         buckets: Dict[str, List[Dict[str, Any]]] = {}
 
         for ev in events:
@@ -179,7 +193,7 @@ def merge(day: str) -> None:
                 if ch:
                     charts.append(ch)
 
-                # 2) evidence.tags（你现在 TOP10_STABLE 就在这里写了 ["Top10稳定","无变化"]）
+                # 2) evidence.tags
                 t = e.get("tags") or []
                 if isinstance(t, list):
                     tags.extend([x for x in t if isinstance(x, str) and x.strip()])
@@ -190,11 +204,11 @@ def merge(day: str) -> None:
                     tags.append("Top10稳定")
                     tags.append("无变化")
 
-                # 4) always include event_type as tag（便于排查）
+                # 4) always include event_type as tag
                 if et:
                     tags.append(et)
 
-            # 统一清洗 + 去重（保留顺序）
+            # 清洗 + 去重（保留顺序）
             cleaned: List[str] = []
             seen = set()
             for t in tags:
@@ -218,7 +232,7 @@ def merge(day: str) -> None:
             if charts:
                 narrative = f"{narrative}（涉及榜单：{' / '.join(charts)}）"
 
-            # 标注分行组别（STABLE / DOMINANT / OTHER）
+            # 标注分组
             try:
                 group = (merge_key.split("||")[-1] or "").strip()
             except Exception:
@@ -258,5 +272,22 @@ def merge(day: str) -> None:
         conn.close()
 
 
+def main():
+    parser = argparse.ArgumentParser(description="Merge events for a specific day")
+    parser.add_argument("--day", "-d", 
+                        help="Target day (YYYY-MM-DD). Default: Beijing today or TARGET_DATE env",
+                        default=None)
+    args = parser.parse_args()
+    
+    # 确定目标日期
+    if args.day:
+        target_day = args.day.strip()
+    else:
+        target_day = get_target_date()
+    
+    print(f"[merge_events] Processing day: {target_day}")
+    merge(target_day)
+
+
 if __name__ == "__main__":
-    merge(date.today().isoformat())
+    main()

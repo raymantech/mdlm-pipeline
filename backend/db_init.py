@@ -1,14 +1,23 @@
 # backend/db_init.py
 import os
+import sys
 import sqlite3
 from pathlib import Path
 from datetime import datetime
 
 ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT))
+
 DB_PATH = Path(os.getenv("MDLM_DB", str(ROOT / "charts.db")))
 
-def now_iso():
-    return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+# 尝试导入时区模块，如果失败则使用简单实现
+try:
+    from timezone_utils import beijing_timestamp
+    def now_iso():
+        return beijing_timestamp()
+except ImportError:
+    def now_iso():
+        return datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
 
 def connect():
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)

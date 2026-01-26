@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import time
 import sqlite3
@@ -7,7 +8,13 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 import httpx
+
+# 确保时区处理模块在路径中
+ROOT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT_DIR))
+
 from mdlm_config import db_path, load_env
+from timezone_utils import beijing_now_iso
 
 # =========================================================
 # ENV
@@ -39,7 +46,8 @@ KUGOU_TARGETS = [
 # DB helpers
 # =========================================================
 def now_iso() -> str:
-    return datetime.now().replace(microsecond=0).isoformat()
+    """使用北京时间"""
+    return beijing_now_iso()
 
 def table_columns(conn: sqlite3.Connection, table: str) -> List[str]:
     rows = conn.execute(f"PRAGMA table_info({table});").fetchall()
