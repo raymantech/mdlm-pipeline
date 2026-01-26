@@ -188,6 +188,78 @@ def delete_today_chart_snapshot(conn: sqlite3.Connection, chart_id: int, day: st
     conn.commit()
 
 
+def fetch_netease_douyin_playlist(limit: int = 100) -> Dict[str, Any]:
+    """
+    Fallback: 从网易云获取"抖音排行榜"数据
+    """
+    url = "https://music.163.com/api/playlist/detail"
+    params = {
+        "id": "2250011882",  # 抖音排行榜
+        "n": str(limit),
+    }
+    
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+        "Referer": "https://music.163.com/",
+    }
+    
+    with httpx.Client(timeout=FETCH_TIMEOUT, headers=headers, follow_redirects=True) as client:
+        r = client.get(url, params=params)
+        if r.status_code == 200:
+            data = r.json()
+            if data.get("code") == 200:
+                return {"source": url, "data": data, "chart_type": "hot_fallback"}
+    
+    raise RuntimeError("Netease fallback failed")
+
+
+def parse_netease_as_douyin(payload: Dict[str, Any], limit: int) -> List[Dict[str, Any]]:
+    """将网易云数据解析为标准格式"""
+    data = payload.get("data", {})
+    result = data.get("result") or data.get("playlist") or {}
+    tracks = result.get("tracks") or []
+    
+    out: List[Dict[str, Any]] = []
+    for idx, track in enumerate(tracks[:limit]):
+        if not isinstance(track, dict):
+            continue
+            
+        song_name = (track.get("name") or "").strip()
+        if not song_name:
+            continue
+            
+        # 艺人
+        artists = track.get("artists") or track.get("ar") or []
+        artist_names = [a.get("name") for a in artists if isinstance(a, dict) and a.get("name")]
+        artist = " / ".join(artist_names)
+        
+        # 热度 (popularity)
+        pop = track.get("popularity") or track.get("pop") or 0
+        
+        # 构造 ID
+        song_id = track.get("id")
+        # 注意：这里我们用 netease 前缀，但在 ingest_douyin 上下文中，
+        # 我们假装它是 douyin 来源的数据，或者明确标记它是 fallback
+        # 为了让 dark_horse.py 能识别，我们保持 douyin: 前缀，但 ID 可能不对应真实抖音 ID
+        # 这是一个 trade-off。或者我们用 douyin:netease_fallback:{id}
+        track_platform_id = f"douyin:netease_{song_id}"
+        
+        out.append({
+            "rank": idx + 1,
+            "track_platform_id": track_platform_id,
+            "track_name": song_name,
+            "artist_name_raw": artist,
+            "heat": float(pop),
+            "extra_metrics": {
+                "source": "netease_fallback",
+                "original_id": song_id,
+                "heat": pop
+            }
+        })
+        
+    return out
+
+
 def fetch_douyin_chart(chart_type: str, limit: int = 100) -> Dict[str, Any]:
     """
     获取抖音/汽水音乐榜单数据
@@ -219,7 +291,12 @@ def fetch_douyin_chart(chart_type: str, limit: int = 100) -> Dict[str, Any]:
     chart_id = chart_ids.get(chart_type, chart_ids["hot"])
     
     apis = [
-        # 抖音热歌榜 API
+        # 抖音热歌榜 API (Web)
+        {
+            "url": "https://www.douyin.com/aweme/v1/web/music/chart/list/",
+            "params": {"chart_id": chart_id, "count": str(limit), "cursor": "0", "device_platform": "webapp"},
+        },
+        # 旧 API
         {
             "url": "https://www.douyin.com/aweme/v1/chart/music/list/",
             "params": {"chart_id": chart_id, "count": str(limit), "cursor": "0"},
@@ -255,6 +332,14 @@ def fetch_douyin_chart(chart_type: str, limit: int = 100) -> Dict[str, Any]:
                 last_err = f"{type(e).__name__}"
             
             time.sleep(FETCH_SLEEP)
+            
+    # 如果是热歌榜且主 API 失败，尝试 Netease Fallback
+    if chart_type == "hot":
+        print(f"  [INFO] Primary API failed, trying Netease fallback for {chart_type}...")
+        try:
+            return fetch_netease_douyin_playlist(limit)
+        except Exception as e:
+            last_err = f"All methods failed (including fallback: {e})"
     
     raise RuntimeError(f"抖音 API 不可用 ({chart_type}): {last_err}")
 
@@ -269,6 +354,10 @@ def fetch_douyin_chart_fallback(chart_type: str, limit: int) -> Dict[str, Any]:
 
 def parse_douyin_songs(payload: Dict[str, Any], limit: int) -> List[Dict[str, Any]]:
     """解析抖音/汽水音乐返回的歌曲数据"""
+    # 检查是否为 Fallback 数据
+    if payload.get("chart_type") == "hot_fallback":
+        return parse_netease_as_douyin(payload, limit)
+
     data = payload.get("data", {})
     
     # 尝试多种数据结构
