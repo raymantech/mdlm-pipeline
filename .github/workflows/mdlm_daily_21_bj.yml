@@ -1,114 +1,32 @@
-name: MDLM Daily Pipeline (21:00 BJ) - TEMP SCHEDULE TEST
+name: MDLM Scheduler (21:00 BJ)
 
 on:
   workflow_dispatch:
   schedule:
-    # 临时测试：每 10 分钟触发一次（UTC）
-    - cron: "*/10 * * * *"
+    # 北京时间 21:00 = UTC 13:00
+    - cron: "0 13 * * *"
 
 permissions:
-  contents: write
-
-concurrency:
-  group: mdlm-daily-21
-  cancel-in-progress: false
+  actions: write
+  contents: read
 
 jobs:
-  run:
+  dispatch:
     runs-on: ubuntu-latest
-
     steps:
-      # 只要是 schedule 触发，就在这里快速退出（避免每10分钟跑全量）
-      - name: Schedule smoke test (temporary, exits)
-        if: ${{ github.event_name == 'schedule' }}
-        run: |
-          echo "✅ schedule trigger works for MDLM workflow"
-          echo "UTC time:"
-          date -u
-          exit 0
-
-      - name: Checkout main (code)
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.9"
-
-      - name: Create venv + install deps
-        shell: bash
-        run: |
-          set -euo pipefail
-          python -V
-          python -m venv .venv
-          . .venv/bin/activate
-          python -m pip install -U pip
-          python -m pip install -r backend/requirements.txt
-
-      - name: Run pipeline (daily + export)
-        shell: bash
+      - name: Dispatch MDLM workflow
         env:
-          EXPORT_DAYS: "7"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          WORKFLOW_FILE: "mdlm_daily_21_bj.yml"
+          REF: "main"
         run: |
           set -euo pipefail
-          . .venv/bin/activate
-          python backend/run_daily.py
-
-      - name: Verify output exists
-        shell: bash
-        run: |
-          set -euo pipefail
-          test -f frontend/data/merged_events_latest.json
-          ls -lh frontend/data/merged_events_latest.json
-
-      - name: Push output to data branch (worktree)
-        shell: bash
-        run: |
-          set -euo pipefail
-
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git fetch origin --prune
-
-          if git show-ref --verify --quiet refs/remotes/origin/data; then
-            echo "[INFO] origin/data exists"
-          else
-            echo "[INFO] origin/data not found, creating empty data branch"
-            git checkout --orphan data
-            git rm -rf .
-            mkdir -p data
-            echo "data branch for MDLM outputs" > data/README.txt
-            git add data/README.txt
-            git commit -m "init data branch"
-            git push -u origin data
-            git checkout main
-          fi
-
-          rm -rf ../_data_branch
-          git worktree add ../_data_branch data
-
-          mkdir -p ../_data_branch/data
-          cp -f frontend/data/merged_events_latest.json ../_data_branch/data/merged_events_latest.json
-
-          cd ../_data_branch
-          git add data/merged_events_latest.json
-
-          if git diff --cached --quiet; then
-            echo "[INFO] No changes to commit on data branch."
-          else
-            git commit -m "data: update merged_events_latest.json ($(date -u +'%Y-%m-%d %H:%M:%S') UTC)"
-            git push origin data
-          fi
-
-          cd -
-          git worktree remove ../_data_branch --force
-          rm -rf ../_data_branch
-
-      - name: Upload artifact (merged_events_latest.json)
-        uses: actions/upload-artifact@v4
-        with:
-          name: merged_events_latest
-          path: frontend/data/merged_events_latest.json
+          echo "Dispatching $WORKFLOW_FILE on $REF..."
+          curl -sS -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            https://api.github.com/repos/$OWNER/$REPO/actions/workflows/$WORKFLOW_FILE/dispatches \
+            -d "{\"ref\":\"$REF\"}"
+          echo "Done."
