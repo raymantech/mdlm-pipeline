@@ -1,11 +1,9 @@
-name: MDLM Daily Pipeline (21:00 BJ)
+name: MDLM Daily Pipeline (21:00 BJ) - TEMP SCHEDULE TEST
 
 on:
-  push:
-    paths:
-      - ".github/workflows/mdlm_daily_21_bj.yml"
   workflow_dispatch:
   schedule:
+    # 临时测试：每 10 分钟触发一次（UTC）
     - cron: "*/10 * * * *"
 
 permissions:
@@ -20,6 +18,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # 只要是 schedule 触发，就在这里快速退出（避免每10分钟跑全量）
+      - name: Schedule smoke test (temporary, exits)
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          echo "✅ schedule trigger works for MDLM workflow"
+          echo "UTC time:"
+          date -u
+          exit 0
+
       - name: Checkout main (code)
         uses: actions/checkout@v4
         with:
@@ -56,7 +63,6 @@ jobs:
           test -f frontend/data/merged_events_latest.json
           ls -lh frontend/data/merged_events_latest.json
 
-      # 用 worktree 操作 data 分支，避免 checkout 覆盖主分支工作区文件
       - name: Push output to data branch (worktree)
         shell: bash
         run: |
@@ -65,10 +71,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 拉取远端分支信息（更稳）
           git fetch origin --prune
 
-          # 确保远端存在 data 分支；不存在则创建
           if git show-ref --verify --quiet refs/remotes/origin/data; then
             echo "[INFO] origin/data exists"
           else
@@ -83,7 +87,6 @@ jobs:
             git checkout main
           fi
 
-          # 准备 worktree
           rm -rf ../_data_branch
           git worktree add ../_data_branch data
 
