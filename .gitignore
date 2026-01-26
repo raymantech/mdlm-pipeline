@@ -35,6 +35,7 @@ backend/charts.db
 backend/charts.db-shm
 backend/charts.db-wal
 backend/logs/
+backend/test_merged_result.json
 frontend/data/
 frontend/long_term_music.db
 .DS_Store
