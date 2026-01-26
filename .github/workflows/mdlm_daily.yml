@@ -18,6 +18,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Schedule probe (temporary)
+        if: ${{ github.event_name == 'schedule' }}
+        run: |
+          echo "MDLM scheduled trigger works"
+          date -u
+          exit 0
+    
+
+    steps:
       - name: Checkout main (code)
         uses: actions/checkout@v4
         with:
