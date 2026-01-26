@@ -1,0 +1,32 @@
+name: MDLM Scheduler (21:00 BJ)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 北京时间 21:00 = UTC 13:00
+    - cron: "0 13 * * *"
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch MDLM workflow
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          WORKFLOW_FILE: "mdlm_daily_21_bj.yml"
+          REF: "main"
+        run: |
+          set -euo pipefail
+          echo "Dispatching $WORKFLOW_FILE on $REF..."
+          curl -sS -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            https://api.github.com/repos/$OWNER/$REPO/actions/workflows/$WORKFLOW_FILE/dispatches \
+            -d "{\"ref\":\"$REF\"}"
+          echo "Done."
