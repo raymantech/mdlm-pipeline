@@ -77,6 +77,14 @@ def main():
     # 注意：ingest 脚本会使用当前北京日期，确保数据被正确归类
     run([PY, str(ROOT / "ingest_qq.py")], "Ingest QQ Music charts")
     run([PY, str(ROOT / "ingest_kugou.py")], "Ingest Kugou charts")
+    
+    # 网易云音乐（独立脚本）
+    netease_script = ROOT / "ingest_netease.py"
+    if netease_script.exists():
+        try:
+            run([PY, str(netease_script)], "Ingest Netease Music charts")
+        except Exception as e:
+            print(f"{ts()} [WARN] Netease ingest failed: {e}")
 
     # 3) 事件分析 - 传递目标日期
     analyze_script = ROOT / "analyze_events.py"
