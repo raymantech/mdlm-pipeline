@@ -4,10 +4,9 @@ on:
   push:
     paths:
       - ".github/workflows/mdlm_scheduler.yml"
-      
   schedule:
-    # 北京时间 21:00 = UTC 13:00
-    - cron: "0 13 * * *"
+      - cron: "0 13 * * *"
+  workflow_dispatch:
 
 permissions:
   actions: write
