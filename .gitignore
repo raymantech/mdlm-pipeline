@@ -38,3 +38,6 @@ backend/logs/
 frontend/data/
 frontend/long_term_music.db
 .DS_Store
+
+# === allow charts.db on data branch ===
+!data/charts.db
