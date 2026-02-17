@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-02-01T23:42:49+08:00",
+  "date": "2026-02-01",
+  "source": "qishui_app_screenshot_llm_deepseek",
+  "charts": {
+    "hot": [],
+    "new": []
+  },
+  "debug": {
+    "model": "deepseek-chat",
+    "raw_response": ""
+  }
+}

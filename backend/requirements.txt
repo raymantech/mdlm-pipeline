@@ -1,2 +1,8 @@
 httpx>=0.27.0
 requests>=2.31.0
+
+# 汽水 App 截图 OCR（可选）
+# tencentcloud-sdk-python-ocr>=3.0.1000
+
+# 汽水 OCR 预处理必需
+Pillow>=10.0.0

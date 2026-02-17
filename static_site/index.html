@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <title>MDLM 监测系统</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0"></script>
+    <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?b5fe9c1464e71870473b9f393e4d485c";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="header-left">
+        <div class="logo">MD</div>
+        <h1 class="h1-inline">MDLM 监测系统</h1>
+        <div id="updateDate" class="update-date" style="font-size: 10px; opacity: 0.7;">同步中...</div>
+      </div>
+      <div class="header-right">
+        <div class="kpi-group">
+          <div class="kpi"><span class="kpi-label">监测事件</span><strong id="kpiTotal">-</strong></div>
+          <div class="kpi"><span class="kpi-label">波动预警</span><strong id="kpiHigh">-</strong></div>
+        </div>
+      </div>
+    </header>
+
+    <section class="charts-row">
+      <div class="card chart-card">
+        <div class="cardTitle">事件类型分布 <span class="hint">点击柱条快速筛选</span></div>
+        <div class="chart-container"><canvas id="chartTypes"></canvas></div>
+      </div>
+      <div class="card chart-card">
+        <div class="cardTitle" id="platformTitle">平台分布</div>
+        <div class="cardHint" id="platformHint"></div>
+        <div class="chart-container"><canvas id="chartPlatforms"></canvas></div>
+      </div>
+    </section>
+
+    <section class="filters card">
+      <div class="filterRow">
+        <div class="filterItem"><label>时间范围</label><select id="fTime">
+            <option value="all">全部历史</option>
+            <option value="1">24h 内</option>
+            <option value="3">3 天内</option>
+            <option value="7">7 天内</option>
+            <option value="14">14 天内</option>
+        </select></div>
+        <div class="filterItem"><label>平台</label><select id="fPlatform"></select></div>
+        <div class="filterItem chart-filter-wrap" id="chartFilterWrap" style="display:none"><label>榜单</label><select id="chartSelect"><option value="">所有榜单</option></select></div>
+        <div class="filterItem"><label>类型</label><select id="fType"></select></div>
+        <div class="filterItem grow"><label>关键字搜索</label><input id="fSearch" placeholder="搜索歌曲或艺人..." /></div>
+      </div>
+    </section>
+
+    <section class="list-section">
+      <div class="list-header">
+          <h3 id="listHint">异动明细</h3>
+          <div id="topArtistContainer" class="top-artist-box-red">
+              <i class="fa-solid fa-microphone-lines"></i>
+              <span id="topArtistInfo">正在统计...</span>
+          </div>
+      </div>
+      <div class="tableWrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>平台</th><th>涉及榜单</th><th>歌曲 (点击复制)</th><th>艺人</th>
+              <th class="sortable" onclick="handleSort('rank_now')">排名 <i id="sortRank" class="fa-solid fa-sort sort-icon-muted"></i></th>
+              <th class="sortable" onclick="handleSort('delta')">趋势 <i id="sortDelta" class="fa-solid fa-sort sort-icon-muted"></i></th>
+              <th class="sortable" onclick="handleSort('_dateObj')">日期 <i id="sortDate" class="fa-solid fa-sort sort-icon-muted"></i></th>
+              <th>类型标签</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+      <div id="pagination" class="pagination-container"></div>
+    </section>
+  </div>
+
+  <aside class="side-controls">
+      <button class="side-btn btn-reset" id="btnSideReset" title="重置筛选">
+          <i class="fa-solid fa-filter-circle-xmark"></i>
+          <span>主页</span>
+      </button>
+      <button class="side-btn btn-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+          <i class="fa-solid fa-chevron-up"></i>
+      </button>
+  </aside>
+
+  <div id="toast" class="modern-toast">
+      <i class="fa-solid fa-check-circle"></i>
+      <span>已复制到剪贴板</span>
+  </div>
+
+  <script src="app.js?v=20260217_duobang"></script>
+</body>
+</html>

@@ -3,7 +3,7 @@
 header('Content-Type: application/json');
 header('Cache-Control: no-cache, must-revalidate');
 
-$json_file = 'data/merged_events_latest.json';
+$json_file = __DIR__ . '/data/merged_events_latest.json';
 
 if (file_exists($json_file)) {
     echo file_get_contents($json_file);

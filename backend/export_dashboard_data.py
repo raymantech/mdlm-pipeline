@@ -22,8 +22,9 @@ import os
 import sys
 import sqlite3
 import hashlib
+from datetime import date, timedelta
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Set
+from typing import Any, Dict, List, Optional, Set, Tuple
 
 # 确保时区处理模块在路径中
 ROOT = Path(__file__).resolve().parent
@@ -119,8 +120,9 @@ def normalize_event(event: Dict[str, Any]) -> Dict[str, Any]:
     normalized["artist"] = event.get("artist") or event.get("artist_name") or ""
     normalized["date"] = event.get("date") or event.get("day") or ""
     
-    # 其他字段
+    # 其他字段（chart 供前端展示，取单值或 charts 首项）
     normalized["charts"] = event.get("charts") or []
+    normalized["chart"] = event.get("chart") or (normalized["charts"][0] if normalized["charts"] else "")
     normalized["tags"] = event.get("tags") or []
     normalized["rank_now"] = event.get("rank_now") or event.get("best_rank_now")
     normalized["rank_prev"] = event.get("rank_prev") or event.get("best_rank_prev")
@@ -131,6 +133,60 @@ def normalize_event(event: Dict[str, Any]) -> Dict[str, Any]:
     normalized["source_event_ids"] = event.get("source_event_ids") or []
     
     return normalized
+
+
+def _dedupe_key(event: Dict[str, Any]) -> tuple:
+    """(date, platform, chart, rank) 用于汽水等来源的硬去重。"""
+    d = (event.get("date") or event.get("day") or "").strip()
+    p = (event.get("platform") or "").strip()
+    ch = event.get("chart") or ((event.get("charts") or [None])[0] if event.get("charts") else None)
+    ch = str(ch)[:50] if ch is not None else ""
+    r = event.get("rank_now") or event.get("rank")
+    return (d, p, ch, r)
+
+
+def load_events_qishui(path: Path) -> List[Dict[str, Any]]:
+    """
+    加载汽水 App 榜单 events（可缺席源）。
+    文件不存在或解析失败时打印 [SKIP]，返回空列表，不抛异常。
+    """
+    if not path.exists():
+        print(f"[SKIP] 汽水 events 不存在，跳过: {path}")
+        return []
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        events = data.get("events") if isinstance(data, dict) else []
+        if not isinstance(events, list):
+            print(f"[SKIP] 汽水 events 格式无效，跳过: {path}")
+            return []
+        print(f"[load] 汽水 events: {len(events)} 条 <- {path}")
+        return events
+    except Exception as e:
+        print(f"[SKIP] 汽水 events 读取失败，跳过: {e}")
+        return []
+
+
+def merge_qishui_into_events(
+    base_events: List[Dict[str, Any]],
+    qishui_events: List[Dict[str, Any]],
+) -> List[Dict[str, Any]]:
+    """
+    将汽水 events 并入 base，按 (date, platform, chart, rank) 硬去重，后出现的覆盖。
+    其余字段风格与现有 merged_events 一致，由 normalize_event 统一。
+    """
+    key_to_event: Dict[tuple, Dict[str, Any]] = {}
+    for e in base_events:
+        n = normalize_event(e)
+        k = _dedupe_key(n)
+        key_to_event[k] = n
+    for e in qishui_events:
+        n = normalize_event(e)
+        k = _dedupe_key(n)
+        key_to_event[k] = n
+    out = list(key_to_event.values())
+    out.sort(key=lambda x: (x.get("date", ""), x.get("severity", 0)), reverse=True)
+    return out
 
 
 def load_existing_events(json_path: Path) -> List[Dict[str, Any]]:
@@ -303,6 +359,79 @@ def get_date_distribution(events: List[Dict[str, Any]]) -> Dict[str, int]:
     return dict(sorted(dist.items(), reverse=True))
 
 
+def _event_date_str(ev: Dict[str, Any]) -> Optional[str]:
+    """从事件中取日期字符串，兼容 event_date / date / day。缺失返回 None。"""
+    for key in ("event_date", "date", "day"):
+        v = ev.get(key)
+        if v is None:
+            continue
+        if isinstance(v, str) and v.strip():
+            return v.strip()[:10]
+        if isinstance(v, date):
+            return v.isoformat()[:10]
+    return None
+
+
+def is_drop_event(event: Dict[str, Any]) -> bool:
+    """charts/tags/type/mTag 任一命中「掉出榜」则为掉出榜事件。"""
+    charts = _ensure_list(event.get("charts"))
+    tags = _ensure_list(event.get("tags"))
+    t = event.get("type") or ""
+    mtag = event.get("mTag") or event.get("_mTag") or ""
+    for c in charts:
+        if isinstance(c, str) and "掉出榜" in c:
+            return True
+    for tag in tags:
+        if isinstance(tag, str) and "掉出榜" in tag:
+            return True
+    if isinstance(t, str) and "掉出榜" in t:
+        return True
+    if isinstance(mtag, str) and "掉出榜" in str(mtag):
+        return True
+    return False
+
+
+def prune_events_last_n_days(
+    events: List[Dict[str, Any]],
+    n: int = 7,
+    tz: str = "Asia/Shanghai",
+) -> Tuple[List[Dict[str, Any]], int]:
+    """
+    按事件日期只保留最近 n 天，窗口 [today-(n-1), today]（共 n 天）。
+    以北京时间（Asia/Shanghai）计算 today。
+    事件日期字段支持 event_date / date / day；若均不存在则保留该条并打 warn，不丢弃。
+    """
+    today = beijing_today()
+    start = today - timedelta(days=n - 1)
+    kept: List[Dict[str, Any]] = []
+    dropped_count = 0
+    for ev in events:
+        raw = _event_date_str(ev)
+        if raw is None:
+            print(
+                "[WARN] prune: event missing date field (date/day/event_date), keeping:",
+                (ev.get("track") or ev.get("track_name") or "")[:50],
+                file=sys.stderr,
+            )
+            kept.append(ev)
+            continue
+        try:
+            d = date.fromisoformat(raw)
+        except ValueError:
+            print(
+                f"[WARN] prune: invalid date {raw!r}, keeping event:",
+                (ev.get("track") or ev.get("track_name") or "")[:50],
+                file=sys.stderr,
+            )
+            kept.append(ev)
+            continue
+        if start <= d <= today:
+            kept.append(ev)
+        else:
+            dropped_count += 1
+    return kept, dropped_count
+
+
 def main():
     ap = argparse.ArgumentParser(description="Export dashboard JSON with incremental merge")
     ap.add_argument("--db", default=str(DEFAULT_DB), 
@@ -357,7 +486,24 @@ def main():
     else:
         final_events = merge_events(existing_events, new_events)
 
-    # 4. 生成日期分布统计
+    # 3.5 汽水 App 榜单（可缺席源）：若 data/events_qishui_latest.json 存在则并入并去重
+    qishui_path = ROOT.parent / "data" / "events_qishui_latest.json"
+    qishui_events = load_events_qishui(qishui_path)
+    if qishui_events:
+        final_events = merge_qishui_into_events(final_events, qishui_events)
+        print(f"[export] 已并入汽水 events，合计 {len(final_events)} 条")
+
+    # 4. 按事件日期裁剪：只保留最近 7 天（北京时间 [today-6, today]）
+    final_events, dropped_count = prune_events_last_n_days(final_events, n=14, tz="Asia/Shanghai")
+    print(f"[INFO] prune_last_days: keep={len(final_events)} drop={dropped_count} n=14")
+
+    # 4.5 过滤掉出榜事件（charts/tags/type/mTag 任一命中「掉出榜」）
+    drop_events_count = sum(1 for e in final_events if is_drop_event(e))
+    final_events = [e for e in final_events if not is_drop_event(e)]
+    if drop_events_count > 0:
+        print(f"[INFO] 过滤掉出榜事件: {drop_events_count} 条")
+
+    # 5. 生成日期分布统计
     date_dist = get_date_distribution(final_events)
     
     # 只显示最近 10 天的分布
@@ -368,7 +514,7 @@ def main():
             break
         print(f"  {d}: {count} events")
 
-    # 5. 写入文件
+    # 6. 写入文件
     payload = {
         "generated_at": beijing_timestamp(),
         "total_events": len(final_events),
@@ -378,7 +524,11 @@ def main():
     }
     
     out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"[OK] Exported {len(final_events)} events -> {out_path}")
+    count = len(final_events)
+    size_bytes = out_path.stat().st_size
+    size_str = f"{size_bytes / (1024 * 1024):.1f}MB" if size_bytes >= 1024 * 1024 else f"{size_bytes / 1024:.1f}KB"
+    print(f"[INFO] {out_path.name}: events={count} size={size_str}")
+    print(f"[OK] Exported {count} events -> {out_path}")
 
 
 if __name__ == "__main__":

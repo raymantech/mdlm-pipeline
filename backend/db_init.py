@@ -100,6 +100,16 @@ def create_tables(conn: sqlite3.Connection):
         print("  [db_init] Migrating: Adding extra_metrics to chart_entry")
         cur.execute("ALTER TABLE chart_entry ADD COLUMN extra_metrics TEXT")
 
+<<<<<<< Updated upstream
+=======
+    # 迁移：添加 score 列（用于酷狗音乐）
+    # 使用 PRAGMA table_info 检查列是否存在，实现幂等迁移
+    columns = [row[1] for row in cur.execute("PRAGMA table_info(chart_entry)").fetchall()]
+    if "score" not in columns:
+        print("  [db_init] Migrating: Adding score to chart_entry")
+        cur.execute("ALTER TABLE chart_entry ADD COLUMN score REAL")
+
+>>>>>>> Stashed changes
     conn.commit()
 
 def seed_basics(conn: sqlite3.Connection):

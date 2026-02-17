@@ -1,0 +1,607 @@
+{
+  "source": "https://www.douyin.com/qishui/playlist/7456953055192696858",
+  "fetched_at": "2026-01-31T18:23:42+08:00",
+  "playlist_id": "7456953055192696858",
+  "tracks": [
+    {
+      "rank": 1,
+      "track_platform_id": "qishui:adbc7ab09d99ca8e",
+      "track_name": "抖音最火歌曲",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "抖音最火歌曲"
+      }
+    },
+    {
+      "rank": 2,
+      "track_platform_id": "qishui:8c7a5173cf26d0cc",
+      "track_name": "我的楼兰",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "倔强"
+      }
+    },
+    {
+      "rank": 3,
+      "track_platform_id": "qishui:31dc2ac9b8958436",
+      "track_name": "抖音热歌DJ",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "流行劲爆DJ"
+      }
+    },
+    {
+      "rank": 4,
+      "track_platform_id": "qishui:9c7154c7e625f283",
+      "track_name": "大风吹",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "大风吹"
+      }
+    },
+    {
+      "rank": 5,
+      "track_platform_id": "qishui:de3d84d65fcf8e0d",
+      "track_name": "孤勇者",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "孤勇者 - 《英雄聯盟：雙城之戰》動畫劇集中文主題曲"
+      }
+    },
+    {
+      "rank": 6,
+      "track_platform_id": "qishui:ba836af10af5a721",
+      "track_name": "万疆",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "万疆"
+      }
+    },
+    {
+      "rank": 7,
+      "track_platform_id": "qishui:3371a3e98f1f8f25",
+      "track_name": "Dạ Vũ",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "Dạ Vũ"
+      }
+    },
+    {
+      "rank": 8,
+      "track_platform_id": "qishui:d73931d75cdf5873",
+      "track_name": "无人区玫瑰 (慢速版0.9x)",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "无人区玫瑰 (慢速版0.9x)"
+      }
+    },
+    {
+      "rank": 9,
+      "track_platform_id": "qishui:9bc7186b0d008843",
+      "track_name": "特别的人",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "危险世界"
+      }
+    },
+    {
+      "rank": 10,
+      "track_platform_id": "qishui:c3373aa31a30e80f",
+      "track_name": "Letting Go",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "说到爱"
+      }
+    },
+    {
+      "rank": 11,
+      "track_platform_id": "qishui:70491d4c4e1bceb6",
+      "track_name": "天若有情 ((电视剧「锦绣未央」主题曲)",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "天若有情 ((电视剧「锦绣未央」主题曲)"
+      }
+    },
+    {
+      "rank": 12,
+      "track_platform_id": "qishui:ae6baab7787e94ed",
+      "track_name": "可能",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "可能"
+      }
+    },
+    {
+      "rank": 13,
+      "track_platform_id": "qishui:c1fe6d624c948dae",
+      "track_name": "路灯下的小姑娘 (DJ旋律版)",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "恋爱旋律 (DJ抖音完整版)"
+      }
+    },
+    {
+      "rank": 14,
+      "track_platform_id": "qishui:eacd812072db19cd",
+      "track_name": "小城夏天",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "小城夏天"
+      }
+    },
+    {
+      "rank": 15,
+      "track_platform_id": "qishui:e8a0ded9527e71d9",
+      "track_name": "我记得",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "署前街少年"
+      }
+    },
+    {
+      "rank": 16,
+      "track_platform_id": "qishui:296088ae7f395920",
+      "track_name": "危险派对",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "危险派对"
+      }
+    },
+    {
+      "rank": 17,
+      "track_platform_id": "qishui:adbc7ab09d99ca8e",
+      "track_name": "抖音最火歌曲",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "抖音最火歌曲"
+      }
+    },
+    {
+      "rank": 18,
+      "track_platform_id": "qishui:08980a5611bcd963",
+      "track_name": "看得最远的地方",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "月光、背影与海"
+      }
+    },
+    {
+      "rank": 19,
+      "track_platform_id": "qishui:d69014f3c223d4a3",
+      "track_name": "背对背拥抱",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "JJ林俊杰_100天"
+      }
+    },
+    {
+      "rank": 20,
+      "track_platform_id": "qishui:6e7a08b56916d4de",
+      "track_name": "是妈妈是女儿",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "是妈妈是女儿"
+      }
+    },
+    {
+      "rank": 21,
+      "track_platform_id": "qishui:7c5213786139df4b",
+      "track_name": "不下载真是可惜了（DJ抖音版）",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "《节奏上头》"
+      }
+    },
+    {
+      "rank": 22,
+      "track_platform_id": "qishui:fd97ab92e0140d6f",
+      "track_name": "在你的身边",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "在你的身边"
+      }
+    },
+    {
+      "rank": 23,
+      "track_platform_id": "qishui:371764c2894385cd",
+      "track_name": "半生雪",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "半生雪"
+      }
+    },
+    {
+      "rank": 24,
+      "track_platform_id": "qishui:14be594a66888111",
+      "track_name": "如果爱忘了",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "如果愛忘了"
+      }
+    },
+    {
+      "rank": 25,
+      "track_platform_id": "qishui:cbdd20c300320560",
+      "track_name": "2023最火流行抖音热榜DJ",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "2023最新流行热门嗨曲DJ"
+      }
+    },
+    {
+      "rank": 26,
+      "track_platform_id": "qishui:8fa755f37a36f1d1",
+      "track_name": "虹之间 (完整版)",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "爱情公寓4(原声大碟)"
+      }
+    },
+    {
+      "rank": 27,
+      "track_platform_id": "qishui:f0ae4e73aeb5f603",
+      "track_name": "抖音最火网红舞曲",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "抖音最火网红舞曲"
+      }
+    },
+    {
+      "rank": 28,
+      "track_platform_id": "qishui:c09e542863bbd908",
+      "track_name": "等你归来",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "等你归来"
+      }
+    },
+    {
+      "rank": 29,
+      "track_platform_id": "qishui:41a09ec2940b85b8",
+      "track_name": "爱上你是一个错",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "午夜两点半的我"
+      }
+    },
+    {
+      "rank": 30,
+      "track_platform_id": "qishui:b9c07d624b68a215",
+      "track_name": "罗刹海市",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "山歌寥哉"
+      }
+    },
+    {
+      "rank": 31,
+      "track_platform_id": "qishui:2a1e0f30bb4ad5ee",
+      "track_name": "可惜沒如果",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "上一首情歌 (国语精选)"
+      }
+    },
+    {
+      "rank": 32,
+      "track_platform_id": "qishui:8ffb117333c64660",
+      "track_name": "骗子",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "骗子"
+      }
+    },
+    {
+      "rank": 33,
+      "track_platform_id": "qishui:b4df9e82e3090ba9",
+      "track_name": "红山果",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "安与骑兵"
+      }
+    },
+    {
+      "rank": 34,
+      "track_platform_id": "qishui:bfd60c0bcd101450",
+      "track_name": "嘟喂嘟喂",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "杜鹃是花也是鸟（Remix）"
+      }
+    },
+    {
+      "rank": 35,
+      "track_platform_id": "qishui:077d5c4b58f62c4c",
+      "track_name": "不将就 (电影\"何以笙箫默\"片尾曲)",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "有理想"
+      }
+    },
+    {
+      "rank": 36,
+      "track_platform_id": "qishui:1bf80ca330e3c809",
+      "track_name": "2024抖音DJ电音",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "听开头秒下载 感受纯电音慢摇"
+      }
+    },
+    {
+      "rank": 37,
+      "track_platform_id": "qishui:1525444c42870c3d",
+      "track_name": "寻一个你 (电视剧《苍兰诀》温情主题曲)",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "苍兰诀 影视原声带"
+      }
+    },
+    {
+      "rank": 38,
+      "track_platform_id": "qishui:43e9de1328cb88e8",
+      "track_name": "嘉宾",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "嘉宾"
+      }
+    },
+    {
+      "rank": 39,
+      "track_platform_id": "qishui:9f2a27ddf2e56dcd",
+      "track_name": "爱如火",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "爱如火"
+      }
+    },
+    {
+      "rank": 40,
+      "track_platform_id": "qishui:57f2024fc5f0cf4b",
+      "track_name": "骄傲的少年",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "6415"
+      }
+    },
+    {
+      "rank": 41,
+      "track_platform_id": "qishui:de431a3d081c38bc",
+      "track_name": "笼（电影《消失的她》片尾主题曲）",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "笼"
+      }
+    },
+    {
+      "rank": 42,
+      "track_platform_id": "qishui:2f63dbf8f092b96a",
+      "track_name": "You Don't Know Me",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "You Don't Know Me"
+      }
+    },
+    {
+      "rank": 43,
+      "track_platform_id": "qishui:0fd93ab58227ebc3",
+      "track_name": "姑娘在远方",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "姑娘在远方"
+      }
+    },
+    {
+      "rank": 44,
+      "track_platform_id": "qishui:3308d3b29f5db68d",
+      "track_name": "全是爱",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "最好的时代"
+      }
+    },
+    {
+      "rank": 45,
+      "track_platform_id": "qishui:47a226d9a060400a",
+      "track_name": "人间烟火",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "人间烟火"
+      }
+    },
+    {
+      "rank": 46,
+      "track_platform_id": "qishui:5df8831eb12a11b3",
+      "track_name": "玛卡巴卡 (洗脑版)",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "恋爱旋律 (DJ抖音完整版)"
+      }
+    },
+    {
+      "rank": 47,
+      "track_platform_id": "qishui:fd19535b29465f19",
+      "track_name": "Right Now (Na Na Na)",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "Right Now (Na Na Na)"
+      }
+    },
+    {
+      "rank": 48,
+      "track_platform_id": "qishui:fdae4d840491ded5",
+      "track_name": "你一定要幸福",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "你一定要幸福"
+      }
+    },
+    {
+      "rank": 49,
+      "track_platform_id": "qishui:62bb98fc1f550068",
+      "track_name": "你的",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "你的"
+      }
+    },
+    {
+      "rank": 50,
+      "track_platform_id": "qishui:1f822720871066e8",
+      "track_name": "忘记时间",
+      "artist_name_raw": "",
+      "heat": 0,
+      "extra_metrics": {
+        "playlist_id": "7456953055192696858",
+        "source": "qishui_playlist",
+        "album": "蓝光 新歌 (精选辑)"
+      }
+    }
+  ]
+}
