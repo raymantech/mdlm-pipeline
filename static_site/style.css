@@ -60,6 +60,18 @@ body { margin: 0; font-family: -apple-system, system-ui, sans-serif; background:
 .modern-toast { position: fixed; top: -100px; left: 50%; transform: translateX(-50%); background: #0f172a; color: #fff; padding: 10px 20px; border-radius: 50px; z-index: 9999; transition: top 0.4s; font-size: 13px; }
 .modern-toast.show { top: 20px; }
 
+.cardHint {
+  margin-top: 6px;
+  font-size: 12px;
+  color: #8a8f99;
+  line-height: 1.4;
+}
+
+.cardHint strong {
+  color: #5d6470;
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
     .wrap { padding-right: 15px; }
     .side-controls { top: auto; bottom: 20px; right: 50%; transform: translateX(50%); flex-direction: row; }

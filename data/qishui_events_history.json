@@ -1,0 +1,9404 @@
+{
+  "events": [
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "传说A Legend",
+      "artist": "成龙/金喜善",
+      "date": "2026-02-06",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "好走不见",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "唯一",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "碎碎念",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我怀念的",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "偏爱",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "演员",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "DearD(亲爱的告诉你)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "特别的人",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "是我不够好",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Always Online",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我是真的爱上你",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Dear D(亲爱的告诉你)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Go Girl(Lucky + Go Girl)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "求你别离开我",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "火风",
+      "date": "2026-02-06",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "半-半",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "炎黄子孙(Remix)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一 爱将不同凡响",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "毒蘑菇",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠(情绪版)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "难解",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "有一个人惺惺相惜",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "最后一页",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "有没有人告诉你",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱将不同凡响",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "约定(远处的钟声回荡在雨里)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "XINZUO (PHONK)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泡沫(转场)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "第一次爱的人(男生R&B)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "You And Me",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "左边(你不曾发觉)",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "玻璃",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "多想回到那年那季",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "左边(你不曾发觉",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱不完美",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "第三个吻痕",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱久见人心",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "那个女孩很像你",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我是真的爱过",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我不要等",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "普通英雄",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泪失禁",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "近心悸",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "你没事吧",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "无雨也无晴",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨里",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "骤雨",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "智齿",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "传说A Legend",
+      "artist": "成龙/金喜善",
+      "date": "2026-02-10",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "好走不见",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "唯一",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "碎碎念",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我怀念的",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "偏爱",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "演员",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "DearD(亲爱的告诉你)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "特别的人",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "是我不够好",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Always Online",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我是真的爱上你",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Dear D(亲爱的告诉你)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Go Girl(Lucky + Go Girl)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "求你别离开我",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "火风",
+      "date": "2026-02-10",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "半-半",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "炎黄子孙(Remix)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一 爱将不同凡响",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "毒蘑菇",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠(情绪版)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "难解",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "有一个人惺惺相惜",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "最后一页",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "有没有人告诉你",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱将不同凡响",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "约定(远处的钟声回荡在雨里)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "XINZUO (PHONK)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泡沫(转场)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "第一次爱的人(男生R&B)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "You And Me",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "左边(你不曾发觉)",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "玻璃",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "多想回到那年那季",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "左边(你不曾发觉",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱不完美",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "第三个吻痕",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱久见人心",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "那个女孩很像你",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我是真的爱过",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我不要等",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "普通英雄",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泪失禁",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "近心悸",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "你没事吧",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "无雨也无晴",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨里",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "骤雨",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "智齿",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "传说A Legend",
+      "artist": "成龙/金喜善",
+      "date": "2026-02-11",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "好走不见",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "唯一",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "碎碎念",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我怀念的",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "偏爱",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "演员",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "DearD(亲爱的告诉你)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "特别的人",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "是我不够好",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Always Online",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我是真的爱上你",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Dear D(亲爱的告诉你)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Go Girl(Lucky + Go Girl)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "求你别离开我",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "火风",
+      "date": "2026-02-11",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "半-半",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "炎黄子孙(Remix)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一 爱将不同凡响",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "毒蘑菇",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠(情绪版)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "难解",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "有一个人惺惺相惜",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "最后一页",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "有没有人告诉你",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱将不同凡响",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "约定(远处的钟声回荡在雨里)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "XINZUO (PHONK)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泡沫(转场)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "第一次爱的人(男生R&B)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "You And Me",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "左边(你不曾发觉)",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "玻璃",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "多想回到那年那季",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "左边(你不曾发觉",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱不完美",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "第三个吻痕",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱久见人心",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "那个女孩很像你",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我是真的爱过",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我不要等",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "普通英雄",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泪失禁",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "近心悸",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "你没事吧",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "无雨也无晴",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨里",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "骤雨",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "智齿",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "传说A Legend",
+      "artist": "成龙/金喜善",
+      "date": "2026-02-14",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "唯一",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "偏爱",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "演员",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "碎碎念",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我怀念的",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Always Online",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Dear D(亲爱的告诉你)",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "特别的人",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "其实",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "指纹",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "咏春",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱错",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "火风",
+      "date": "2026-02-14",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大风在刮大雪在下(别在这个冬把我",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "最后一页",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "马上来财",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "炎黄子孙(Remix)",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "新年快乐Go GoGo",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "巴拉莱卡(TheRod)",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "fast & furious",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "练习情人节",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "走马(醒着醉)",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我说你呀(demo)",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一 新年快乐GoGoGo",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "牽絲戲",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "有没有人告诉你",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "巴拉莱卡(The Rod)",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "院子里的花",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半(有歌第二季第5期)(live)",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "想说却无从说起",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "You And Me",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "左边(你不曾发觉)",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "多想回到那年那季",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "(0 你哪有配不上他",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱不完美",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "第三个吻痕",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱久见人心",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "不如陪你演一场",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我是真的爱过",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "你哪有配不上他",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我不要等",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "近心悸",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "廉价玩具",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我开始讨厌我自己",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "死结",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "少年他",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "格桑梅朵",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "玻璃",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "传说A Legend",
+      "artist": "成龙/金喜善",
+      "date": "2026-02-15",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "唯一",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "偏爱",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "演员",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "碎碎念",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我怀念的",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Always Online",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Dear D(亲爱的告诉你)",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "特别的人",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "其实",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "指纹",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "咏春",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱错",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "火风",
+      "date": "2026-02-15",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大风在刮大雪在下(别在这个冬把我",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "最后一页",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "马上来财",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "炎黄子孙(Remix)",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "新年快乐Go GoGo",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "巴拉莱卡(TheRod)",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "fast & furious",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "练习情人节",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "走马(醒着醉)",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我说你呀(demo)",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一 新年快乐GoGoGo",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "牽絲戲",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "有没有人告诉你",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "巴拉莱卡(The Rod)",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "院子里的花",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半(有歌第二季第5期)(live)",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "想说却无从说起",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "You And Me",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "左边(你不曾发觉)",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "多想回到那年那季",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "(0 你哪有配不上他",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱不完美",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "第三个吻痕",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱久见人心",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "不如陪你演一场",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我是真的爱过",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "你哪有配不上他",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我不要等",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "近心悸",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "廉价玩具",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我开始讨厌我自己",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "死结",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "少年他",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "格桑梅朵",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "玻璃",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "传说A Legend(feat.成龙/金喜善)",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "唯一",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "第57次取消发送",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "偏爱",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "演员",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "碎碎念",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我怀念的",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Always Online",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "Dear D(亲爱的告诉你)",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "特别的人",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "其实",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "指纹",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "咏春",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱错",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿(feat.火风)",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大风在刮大雪在下(别在这个冬把我..",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "最后一页",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "马上来财",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "炎黄子孙(Remix)",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "新年快乐Go GoGo",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "707",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "巴拉莱卡(TheRod)",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "fast & furious",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "练习情人节",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "走马(醒着醉)",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我说你呀(demo)",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "牽絲戲",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "有没有人告诉你",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "院子里的花",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半(有歌第二季第5期)(live)",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "除夕夜",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "新歌榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "山海的浩瀚",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "想说却无从说起",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "You And Me",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "左边(你不曾发觉)",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "多想回到那年那季",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "你哪有配不上他",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱不完美",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "第三个吻痕",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "爱久见人心",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "不如陪你演一场",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我是真的爱过",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我不要等",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "近心悸",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "廉价玩具",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我开始讨厌我自己",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "死结",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "少年他",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "格桑梅朵",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "玻璃",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我的同桌是学渣",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "音乐人榜"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "武家坡",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "咏春",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "高瀚宇新歌上线",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泡沫",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "针高瀚宇新歌上线",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "其实",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "无人的岛",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "好运来",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "是我不够好",
+      "artist": "—",
+      "date": "2026-02-06",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "武家坡",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "咏春",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泡沫",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "其实",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "苦茶子",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "苹果香",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我曾像傻子一样爱你",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "好运来",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "是我不够好",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小小志新",
+      "artist": "—",
+      "date": "2026-02-10",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "武家坡",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "乐华家族新年贺岁单曲上线",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "骐骥开驶",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "海屿你",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "咏春",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "半-半新",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泡沫",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "A0 海屿你",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "好运来",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "其实",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半新",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "苦茶子",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "别怕变老",
+      "artist": "—",
+      "date": "2026-02-11",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "武家坡",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "海屿你",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "咏春",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "£0 -半-半",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泡沫",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "好运来",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "其实",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我本将心向明月",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "别怕变老",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "苹果香",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "新年歌曲",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "NO BATIDAO",
+      "artist": "—",
+      "date": "2026-02-14",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "武家坡",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "海屿你",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "咏春",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泡沫",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨过后的风景",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "好运来",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "苹果香",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "失眠",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "其实",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我本将心向明月",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "别怕变老",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "新年歌曲",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "别怕我伤心",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "我年少你飘渺",
+      "artist": "—",
+      "date": "2026-02-15",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "小半",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "武家坡",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "雨爱",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "咏春",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "好运来",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "海屿你",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "大花轿",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "新年歌曲",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "一半一半",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "红色高跟鞋",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "苹果香",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "离开我的依赖",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "别怕变老",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "过年歌曲",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "孤勇者",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "NO BATIDAO",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "其实",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "泡沫",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "恋人",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    },
+    {
+      "platform": "抖音(汽水)",
+      "source": "douyin_qishui_app_ocr",
+      "track": "张灯结彩",
+      "artist": "—",
+      "date": "2026-02-17",
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 0,
+      "id": null,
+      "narrative": "",
+      "source_event_ids": [],
+      "tags": [
+        "汽水OCR"
+      ],
+      "charts": [
+        "热门搜索"
+      ]
+    }
+  ]
+}

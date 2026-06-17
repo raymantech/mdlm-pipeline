@@ -1,0 +1,940 @@
+{
+  "events": [
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 1,
+      "track_name": "传说A Legend",
+      "artist_name": "成龙/金喜善",
+      "event_type": "DOMINANT",
+      "fingerprint": "传说a legend|成龙/金喜善",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "传说A Legend",
+      "artist": "成龙/金喜善",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 2,
+      "track_name": "小半",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "小半|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "小半",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 3,
+      "track_name": "恋人",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "恋人|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "恋人",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 4,
+      "track_name": "好走不见",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "好走不见|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "好走不见",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 5,
+      "track_name": "唯一",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "唯一|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "唯一",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 6,
+      "track_name": "碎碎念",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "碎碎念|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "碎碎念",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 7,
+      "track_name": "雨过后的风景(情绪版)",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "雨过后的风景(情绪版)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 8,
+      "track_name": "红色高跟鞋",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "红色高跟鞋|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "红色高跟鞋",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 10,
+      "track_name": "雨过后的风景",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "雨过后的风景|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "雨过后的风景",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 11,
+      "track_name": "我怀念的",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "我怀念的|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "我怀念的",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 12,
+      "track_name": "失眠",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "失眠|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "失眠",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 13,
+      "track_name": "Dear D(亲爱的告诉你)",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "dear d(亲爱的告诉你)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "Dear D(亲爱的告诉你)",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 14,
+      "track_name": "偏爱",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "偏爱|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "偏爱",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 15,
+      "track_name": "演员",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "演员|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "演员",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 16,
+      "track_name": "天亮以前说再见",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "天亮以前说再见|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "天亮以前说再见",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 17,
+      "track_name": "大花轿",
+      "artist_name": "火风",
+      "event_type": "DOMINANT",
+      "fingerprint": "大花轿|火风",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "大花轿",
+      "artist": "火风",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 18,
+      "track_name": "雨爱",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "雨爱|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "雨爱",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 19,
+      "track_name": "特别的人",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "特别的人|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "特别的人",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "hot",
+      "rank": 20,
+      "track_name": "是我不够好",
+      "artist_name": "",
+      "event_type": "DOMINANT",
+      "fingerprint": "是我不够好|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "是我不够好",
+      "artist": "",
+      "charts": [
+        "hot"
+      ],
+      "tags": [
+        "DOMINANT"
+      ],
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 1,
+      "track_name": "雨过后的风景(情绪版)",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "雨过后的风景(情绪版)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "雨过后的风景(情绪版)",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 1,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 2,
+      "track_name": "大花轿",
+      "artist_name": "火风",
+      "event_type": "NEW",
+      "fingerprint": "大花轿|火风",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "大花轿",
+      "artist": "火风",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 2,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 3,
+      "track_name": "一半一半",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "一半一半|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "一半一半",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 3,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 4,
+      "track_name": "我是真的爱上你",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "我是真的爱上你|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "我是真的爱上你",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 4,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 5,
+      "track_name": "念菩提(《古村的音符》综艺节目第",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "念菩提(《古村的音符》综艺节目第|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "念菩提(《古村的音符》综艺节目第",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 5,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 6,
+      "track_name": "我们会更好的(粤语版)",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "我们会更好的(粤语版)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "我们会更好的(粤语版)",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 6,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 7,
+      "track_name": "泡沫(转场)",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "泡沫(转场)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "泡沫(转场)",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 7,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 8,
+      "track_name": "The Best Me",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "the best me|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "The Best Me",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 8,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 9,
+      "track_name": "我想我会开始想念你",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "我想我会开始想念你|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "我想我会开始想念你",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 9,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 10,
+      "track_name": "是你没选我啊",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "是你没选我啊|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "是你没选我啊",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 10,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 11,
+      "track_name": "有一个人惺惺相惜",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "有一个人惺惺相惜|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "有一个人惺惺相惜",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 11,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 12,
+      "track_name": "XINZUO (PHONK)",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "xinzuo (phonk)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "XINZUO (PHONK)",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 12,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 13,
+      "track_name": "下完这场雨(0.8x)",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "下完这场雨(0.8x)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "下完这场雨(0.8x)",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 13,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 14,
+      "track_name": "若是月亮还没来",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "若是月亮还没来|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "若是月亮还没来",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 14,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 15,
+      "track_name": "暗香(女版)",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "暗香(女版)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "暗香(女版)",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 15,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 16,
+      "track_name": "男人海洋(最痴情的男人像海洋)",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "男人海洋(最痴情的男人像海洋)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "男人海洋(最痴情的男人像海洋)",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 16,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 17,
+      "track_name": "叹云兮(电视剧《芸汐传》片尾曲)",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "叹云兮(电视剧《芸汐传》片尾曲)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "叹云兮(电视剧《芸汐传》片尾曲)",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 17,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 18,
+      "track_name": "当你孤单你会想起谁(R&B版)",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "当你孤单你会想起谁(r&b版)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "当你孤单你会想起谁(R&B版)",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 18,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 19,
+      "track_name": "最真的梦(女生深情版)",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "最真的梦(女生深情版)|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "最真的梦(女生深情版)",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 19,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    },
+    {
+      "date": "2026-02-02",
+      "platform": "DOUYIN_QISHUI",
+      "source": "qishui_app_screenshot_ocr_tencent",
+      "chart": "new",
+      "rank": 20,
+      "track_name": "落了白",
+      "artist_name": "",
+      "event_type": "NEW",
+      "fingerprint": "落了白|",
+      "ts": "2026-02-06T13:21:01+08:00",
+      "track": "落了白",
+      "artist": "",
+      "charts": [
+        "new"
+      ],
+      "tags": [
+        "NEW"
+      ],
+      "rank_now": 20,
+      "rank_prev": null,
+      "delta": null,
+      "severity": 1
+    }
+  ]
+}
